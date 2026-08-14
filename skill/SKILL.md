@@ -1,0 +1,357 @@
+---
+name: humaner
+version: 3.3.0
+description: |
+  Understand the intent of the piece being written, and write well for that goal — the
+  byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
+  Zinsser's On Writing Well: one point made once, structure and sequence, cohesion (the
+  spine test), active verbs, concrete over abstract, cutting hard, trusting the material,
+  no summary endings. Every piece starts with a written brief (kind, audience, one point,
+  what the reader leaves with) and ends with the intent gate. Draft by craft alone.
+  VOICE.md — which you build once for your byline from VOICE-TEMPLATE.md — is consulted
+  only where craft leaves more than one good option and you need to choose between them:
+  a tiebreaker at the point of choice, not a layer applied to the whole draft, and never
+  a mannerism checklist. Its fabrication guardrail and register boundaries are the
+  exception and bind always. Style is organic to the writer; bolting it on is a toupee,
+  and no voice marker justifies prose that is unclear, cluttered, padded, or boring. Use
+  when drafting or editing anything reader-facing or listener-facing: book chapters and
+  long-form manuscripts, articles, LinkedIn posts, tweets, voiceover and TTS scripts.
+  Self-contained: CRAFT.md writes, VOICE.md breaks ties, LINT.md runs the mechanical
+  AI-tell pass last. Trigger phrases: "humanize this properly," "make this sound like
+  me," "/humaner".
+compatibility: any-agent
+allowed-tools:
+  - Read
+  - Write
+  - Edit
+  - Grep
+  - Glob
+---
+
+# HumanER
+
+The job is a piece of writing that does its work: an argument that lands, an explanation
+that teaches, a story that carries its point. **Start by understanding what the piece is
+for, and write well for that goal.** The test at the end is not "does this sound like the
+author" — it is "does this piece do its job," in prose the author could read from a stage
+without wincing.
+
+The byline is whoever's name goes on the piece. The byline fixes the register boundaries,
+the facts you may use, and which of several good sentences to keep. **It is not the
+goal.** Text that thinks clearly under the author's constraints comes out sounding like
+them on its own, and the AI-tells problem mostly dissolves with it. Aimed at directly,
+"sounding like them" produces the toupee this skill exists to refuse — clichés and
+catchphrases arranged to imitate spontaneity. Detector appeasement, never.
+
+Four reference files sit next to this one:
+
+- **CRAFT.md** — how to write well. **The North Star. Read it before writing and draft by
+  it.** Grounded in Zinsser's *On Writing Well*, read in full. Structure, sequence,
+  sentences, sound, trusting the material, rewriting, endings.
+- **VOICE.md** — **a tiebreaker, not a drafting input.** You write this file once for
+  your byline, from `VOICE-TEMPLATE.md`, and the template's warnings are load-bearing —
+  read its header before filling anything in. Open the finished file where craft has
+  left two or more good options and you need to pick one; its Part 2 tells you which
+  belongs under the byline. Two sections are exceptions that bind always: Part 3
+  (fabrication guardrail) and Part 4 (register, NEVER list, identity guardrails).
+- **FORMATS.md** — the per-channel dials: book chapter, article, LinkedIn, tweet, Reddit
+  reply, VO script, TTS. The book dial carries explicit overrides; load it before
+  touching a manuscript.
+- **LINT.md** — **the mechanical pass, run last.** A detector, not a composition guide:
+  it says what to take out and never what to put in. Codified from Wikipedia's *Signs of
+  AI Writing*, filtered down to what applies to prose under a byline.
+
+## Order of authority
+
+**CRAFT.md is the North Star; write by it alone.** If the craft-correct version of a
+sentence is singular — which is most of the time — you are finished, and consulting the
+voice profile can only make it worse. Where craft leaves two or three versions that are
+all good writing, VOICE.md Part 2 (the author's positions and argument moves) picks the
+one that belongs under the byline. That is the whole relationship: **voice is a
+tiebreaker at the point of choice, never a layer spread over the draft.** A voice marker
+never rescues weak prose, and "it sounds more like them" is not a reason to prefer a
+worse sentence.
+
+Two parts of VOICE.md are constraints rather than inspiration, and they bind every
+sentence whether or not there were options:
+
+- **Part 3, the story bank — a fabrication guardrail.** Never invent a story, quote,
+  number, or credential. And the bank is a guardrail, not a quota: most pieces need no
+  personal story at all; the receipt is just as often a number, a mechanism, a source, or
+  plain reasoning. No story unless one genuinely earns its place.
+- **Part 4, the register and identity guardrails.** The NEVER list, name spellings, role
+  titles, claim-scoping rules, NDA and attribution flags. Getting a fact about the author
+  wrong is not a style miss.
+
+**VOICE.md Part 1 is a short list of texture permissions, nothing more.** (In this
+project's first build it held ~250 lines of corpus measurements — sentence statistics,
+connective percentages, fingerprint word lists. They were deleted; see case law. Do not
+rebuild them.) Its uses: permission (do not strip the author's texture where it occurs
+naturally) and detection (a draft showing none of it anywhere may have had its thinking
+sanded generic — fix the argument, not the surface). Never insert filler, doubled words,
+or sentence-initial *And* to make text sound like the author. No word list in VOICE.md is
+ever a source to draw from.
+
+**LINT.md runs last and can only subtract.** It cannot overrule CRAFT.md or VOICE.md — a
+detector has no view on whether a sentence is good. Where it flags something those files
+deliberately establish (a repetition kept on purpose, an honest hedge on a recalled
+number, a real parked digression, a documented typography carve-out), keep it; where it
+is simply right that the sentence is worse, fix the sentence.
+
+## The test that settles every close call
+
+**Before any edit made on voice grounds, name the craft problem it solves** — unclear,
+cluttered, padded, monotonous, abstract, boring, hard to say aloud. If you cannot name
+one, do not make the edit. "It sounds more like the author" is not a craft problem and is
+not a reason.
+
+This test is the whole skill compressed to one move. It separates the two things that
+look identical from the outside: prose that is the author's because the thinking and the
+judgment are theirs, and prose wearing their mannerisms like a costume. Apply it to your
+own output before the checklist, and apply it hardest when an edit feels satisfying.
+
+Corollary, since generated prose fails in one direction far more than the other: when in
+doubt, **cut rather than add.** Every genuine improvement available from VOICE.md Part 1
+is subtractive — leaving something alone, or removing something a lint pass would have
+wrongly imposed. If a Part 1 edit adds text, it is almost certainly wrong.
+
+## Process
+
+**Mode A — draft.** New content:
+1. **Write the brief, in writing, before anything else** (CRAFT.md §1). Four lines, not
+   held in the head: **what kind of piece this is** (an argument, an explanation, a story,
+   a teardown); **who it is for**; **the one point**; **what the reader should know or do
+   when they finish.** Then the remaining structural decisions: pronoun, tense, mood.
+   Think small: one corner, covered well. Gather far more material than you will use.
+   Every later judgment — what to cut, what sequence, what ending — is made against this
+   brief, which is why it has to exist as text and not as an intention.
+2. Identify the format and load its dial from FORMATS.md.
+3. Gather the particulars: real numbers, real sources, real mechanisms, fresh reasoning.
+   A personal story is optional and rare; only from VOICE.md Part 3, flags respected,
+   never fabricated.
+4. **Write the lead** (CRAFT.md §2) and check whether the piece actually starts three
+   paragraphs down.
+5. **Draft by craft** (CRAFT.md §3–4). Clarity, sequence, active verbs, concrete over
+   abstract. Do not write with the voice profile open. Part 4's register boundaries and
+   the fabrication guardrail bind here as they do everywhere, but they are constraints on
+   what you may write, not a source to write from.
+6. **Run the revision passes** (CRAFT.md §7): cut, quickest fix, strengthen, joints,
+   clichés, read aloud — then the **spine test** (pass 7), which is not optional for
+   essays, articles, or chapters and produces a written paragraph map, not a nod.
+7. **Find the exit** (CRAFT.md §8). No summary recap.
+8. **Only where a choice remains, consult VOICE.md.** After the revision passes, some
+   sentences will have one obviously right form; leave those alone. Where two or three
+   versions are all good writing, open Part 2 and ask which one holds the author's
+   positions and argument moves, then pick that one. This is a selection step, not a
+   rewriting step — it chooses among candidates you already have, and it never adds a
+   candidate that craft did not produce.
+9. **Run the LINT.md pass.** Mechanical, last, and subtractive only. Follow its own
+   running order at the bottom of that file.
+10. Run the checklist below.
+
+**Mode B — rewrite existing text.** Two sub-modes, and they have opposite coverage rules:
+
+- **B1, rewriting a published piece in place:** preserve coverage. Do not silently delete
+  content a reader already has. Revoice, restructure, cut padding, but keep the
+  substance.
+- **B2, editing a draft before it ships:** cut hard. CRAFT.md's 50 percent applies, along
+  with think-small and the definitiveness rule. Material you went to trouble to gather
+  earns no place if it is not central.
+
+**Book manuscripts always run B1, never B2.** A chapter is not a draft article; the
+reader is owed the coverage, and a book cut to magazine length reads as a pamphlet. Load
+the book dial in FORMATS.md for the full set of overrides before editing a chapter.
+
+**Both sub-modes start with the brief, same as Mode A.** Write what the piece is for, who
+reads it, the one point, and what the reader leaves with. A rewrite that never states the
+piece's job optimizes every paragraph locally against no target — that is the skit-reel
+generator. If the existing text cannot support a coherent brief, that is the diagnosis,
+and no amount of sentence work fixes it.
+
+Then: diagnose the architecture tells, keep what is structurally sound (honest sourcing,
+real teaching), then the revision passes including the spine test, then LINT.md, then the
+checklist.
+
+**The lint order is fixed and internal to this skill:** CRAFT.md writes, VOICE.md breaks
+ties, LINT.md cleans, last. Linting earlier just polishes text with no pulse. Do not add
+a second AI-tell lint skill on top; LINT.md was built from the primary source and running
+two lint passes re-litigates settled carve-outs.
+
+## The architecture tells (what this skill exists to prevent)
+
+Text can pass every vocabulary-level check and still read as nobody. Watch for these.
+
+1. **Punchline density.** A quotable closer on every section, coined frameworks,
+   callback motifs. Limit: one landed line per piece, zero callbacks, zero coined
+   frameworks.
+2. **Uniform paragraph rhythm.** Every paragraph 3-5 sentences building to a bow.
+   Vary or die.
+3. **Overclean parallelism.** "Not X, not Y. Z." more than once per piece is
+   engineering, not emphasis.
+4. **Zero loose threads.** Everything introduced gets resolved. Park a digression
+   instead; real thinking leaves stubs.
+5. **Courtroom numbers.** Every figure crisp and confident. A real writer hedges the
+   *sourcing* of a number they are recalling ("about 25 million, I think") and cites
+   documented ones exactly. **Never hedge the take.** Zinsser gives first prize for
+   wishy-washiness to a thirteen-word sentence with five hedges; every qualifier
+   whittles away trust. Honest epistemic hedging on a recalled fact is human.
+   "Arguably somewhat problematic" is its opposite.
+6. **Structurally personal, texturally generic anecdotes.** "I lived a version of
+   this myself" with no detail that could only be one person's. Verified stories with
+   weird specifics, or nothing.
+7. **Manufactured intimacy.** "This is the part that haunts me." Real candor is
+   structural, never announced.
+8. **Explaining the significance of a self-sufficient fact.** Give the number and stop.
+   Readers do their own marveling and enjoy being allowed to think.
+9. **Pre-stamping the reader's reaction:** *surprisingly*, *predictably*, *of course*,
+   *notably*, *importantly*. Cut them all.
+10. **The summary ending**, including bulleted "the short version" recaps. When the point
+    is made, find the nearest exit.
+11. **The skit reel** — the piece-level version of everything above, and it outranks the
+    rest. From the ruling that named it: an essay should be *"cohesive and not a series
+    of SNL skits with only a vague resemblance to a unified theme for the evening."*
+    Sections that each land their own little bit while the piece never accumulates an
+    argument. Symptoms travel together: paragraphs you could shuffle without damage;
+    single-line paragraphs doing punchline duty between bits; paragraph-opening pronouns
+    with no nearby antecedent, because the paragraph does not actually continue the one
+    before it. The cause is drafting section-by-section instead of down the upside-down
+    pyramid (CRAFT.md §3). The fix is the spine test (CRAFT.md §7 pass 7) — and never a
+    layer of transition sentences pasted over the gaps, which produces a skit reel with
+    segues.
+
+## Final checklist (every piece, every format)
+
+**Craft first:**
+- [ ] The brief exists in writing: kind of piece, audience, the one point, what the
+      reader leaves with. If it was never written, stop and write it now, then re-read
+      the piece against it.
+- [ ] One point, made once. Could a reader say in one sentence what this piece is for —
+      and does their sentence match the brief's?
+- [ ] Does sentence one earn sentence two? Does the piece really start three paragraphs
+      down?
+- [ ] Spine test done and the paragraph map actually written (CRAFT.md §7 pass 7): every
+      paragraph's clause names the question the previous one raised and how this one
+      answers it. No skits, no pasted transitions.
+- [ ] Every paragraph-opening pronoun's antecedent is the noun still in the reader's ear;
+      otherwise the noun is restated.
+- [ ] Single-sentence paragraphs within the cap (one per ~500 words, never two near each
+      other). Slams end the paragraph that earned them; they don't get their own.
+- [ ] Cut pass done. Would a bracket-and-delete take 30 percent out? If yes, it is not
+      finished.
+- [ ] Verbs active and specific; concept nouns replaced by people doing things.
+- [ ] Little qualifiers pruned (including *genuinely*, *truly*, *really*, *actually* —
+      strike it and see if the sentence got weaker). No hedging on opinions.
+- [ ] Every abstraction paired with something the reader can picture.
+- [ ] Self-sufficient facts left alone, with no significance-nudging sentence after them.
+- [ ] No summary recap. Ends at the nearest exit, on a line worth ending on.
+- [ ] Read aloud start to finish. (The ear catches what the eye forgives.)
+- [ ] Paragraph and sentence lengths visibly vary (contrast, not a target band).
+- [ ] Contractions ~everywhere; at most one deliberate uncontracted verdict line.
+- [ ] Every abstract claim carries a particular: a number, mechanism, source, or example.
+      A personal story is one option and rarely the needed one.
+- [ ] Recalled numbers hedged; cited numbers exact with source.
+- [ ] Max one landed line; no callbacks; no coined frameworks. (In a book manuscript all
+      three scope to the chapter, and a recurring named framework is allowed under the
+      bar set in the FORMATS.md book dial.)
+- [ ] Format dial applied (FORMATS.md); for spoken scripts, every sentence passes the
+      read-aloud breath test.
+
+**Then the hard constraints. These bind every sentence, whether or not you had options:**
+- [ ] **Nothing fabricated:** stories, quotes, numbers, credentials. When in doubt, cut.
+- [ ] Any story is from the Part 3 bank, with its flags honored (NDA scrub, attributions,
+      overuse rotation), and earns its place rather than decorating.
+- [ ] Identity facts right (VOICE.md Part 4): names spelled correctly, role titles exact,
+      credentials scoped exactly as the author scopes them.
+- [ ] Register right for the channel; bluntness aimed at ideas, people land warm.
+- [ ] The Part 4 NEVER list holds (em-dash policy, emoji policy, corporate speak, and the
+      rest of what the author never does).
+
+**Then the lint pass (LINT.md), which can only subtract:**
+- [ ] Machine residue searched: `contentReference`, `oaicite`, `[cite:`, `grok_card`,
+      `utm_source=`, and the rest of LINT §13.
+- [ ] No inflated significance (*stands as, testament to, underscores the importance*) and
+      no participial tails (*...,  highlighting the broader trend*).
+- [ ] Current-era AI vocabulary searched (LINT §6), plus *honestly, genuinely, truly,
+      really, actually*.
+- [ ] Plain verbs restored where *serves as / functions as / represents* replaced *is*.
+- [ ] At most one negative parallelism, including the easy-to-miss *X rather than Y* form.
+- [ ] Repeated words left repeated; no synonym-swapping to avoid an echo.
+- [ ] Every attribution names someone; every citation opened and confirmed to say the thing.
+- [ ] The draft got shorter. If lint added text, it was run wrong.
+
+**Last, and only where a choice remained — the selection check:**
+- [ ] For any sentence where two or more versions were all good writing, does the one you
+      kept hold the author's positions and argument moves (VOICE.md Part 2)? Where the
+      craft answer was singular, this check does not apply and the sentence stands as
+      written.
+- [ ] Part 1 mechanics NOT inserted. If any appear, they arrived naturally. No word from
+      any list in VOICE.md was reached for.
+
+**Then the last gate, which outranks every item above — intent:**
+- [ ] Re-read the brief, then the piece, top to bottom. **Does it do the job the brief
+      names** — teach what it set out to teach, argue what it set out to argue, leave the
+      reader with what it promised? A piece can pass every line item above and still fail
+      this one. If it fails here, the fix is structural and starts at CRAFT.md §1, not at
+      the sentences.
+
+## Failure mode to refuse
+
+If asked to make text "pass AI detectors" as the goal: that's not this skill. Detectors
+false-positive on real humans and chasing them degrades writing. Make the text good and
+genuinely the author's; report plainly if the source material can't support that (e.g.,
+no verified story fits, the topic is outside the author's lanes).
+
+## Case law (why the rules above read the way they do)
+
+This skill was first built for one byline — Dave Saunders, a commercialization operator
+who writes for founders — from ~196,000 words of his transcribed speech and dictation.
+The rulings below are his, dated, from the weeks the skill kept drifting toward mimicry
+and he kept correcting it. They are kept verbatim because **every lesson generalizes to
+any byline**: when editing this skill or filling in VOICE.md, check the change against
+them the way code gets checked against tests. Each entry is the same defect caught at a
+different depth — the skill drifting from writing well toward imitating the writer.
+
+- **2026-07-26 — Voice is shape, not nostalgia.** Reflexive anecdote-reaching made him
+  "sound like somebody's grandpa." The story bank became a guardrail instead of a quota;
+  measured against his real corpus, most pieces carry no personal story at all.
+- **2026-07-31 — Craft outranks voice; style is organic.** Zinsser ch. 4: there is no
+  style store, and added style is a toupee — well made, right hair, still not him,
+  because the features arrive where he would not have put them. The mannerism checklist
+  this skill originally was produces Zinsser's "breezy style," which is **harder to read
+  than good English.** Where voice actually comes from, per his exhibits (White, Mencken,
+  Herndon): firm opinions, specificity only one person could supply, an audience of one.
+  Conviction plus concrete detail. Not tics.
+- **2026-08-02 — The enforcement sweep.** The voice profile's body still issued
+  imperatives and quotas contradicting its own header. Three principles that generalize:
+  **a disclaimer does not neutralize an imperative** (if a passage should not be
+  executed, it must not be written in the imperative); **never state a voice marker as a
+  minimum** (caps can only remove; floors manufacture); **separate the craft rule from
+  the voice observation** whenever they ride together, or the mimicry borrows the
+  craft's authority.
+- **2026-08-03 — No word list is a source; the North Star; the lint fold-in.** Dave:
+  *"Simply taking words because I happened to say them doesn't make better writing.
+  That's a cliché. That's a toupee."* A word list is the most executable content in an
+  instruction file — pattern-matchable, therefore always obeyed — so every list in
+  VOICE.md is remove-only or recognition-only, forever. Same day: *honestly* (staged
+  candor presupposes prior dishonesty) and *genuinely* (an empty intensifier that weakens
+  its sentence) soft-banned; craft confirmed as the North Star with voice as a tiebreaker
+  ("If there are multiple approaches to a sentence or a paragraph... we could look into
+  my voice library for some inspiration here"); LINT.md codified from the Wikipedia
+  source so no separate lint skill is needed.
+- **2026-08-04 (first ruling) — Intent first; the skit reel; the chop generator.** A
+  shipped article was full of single-line paragraphs and paragraph-opening pronouns with
+  no antecedent. Dave: *"The literal intent of this skill is to write well by
+  understanding the intent of the piece being written and writing well for that goal"* —
+  and an essay must be "cohesive and not a series of SNL skits with only a vague
+  resemblance to a unified theme for the evening." The frame changed from "you are
+  writing as [the author]" to intent-first; the written brief and the intent gate were
+  added; the voice profile's sentence-length variance quota — the chop generator — was
+  removed; the spine test became revision pass 7.
+- **2026-08-04 (second ruling) — the corpus measurements deleted.** He had said from the
+  start he did not want the skill built by sampling his writing to imitate his voice.
+  Three reframes failed to make the mined mechanics safe — whatever sits in an
+  instruction file eventually gets executed — so the profile's ~250 lines of measurements
+  and its lexical fingerprint were cut outright. What survived: texture permissions, his
+  positions and argument moves, the story bank, the constraints. His closing line, which
+  is the standard this file answers to: **"We're trying to share great ideas with people
+  and do so in a compelling way that they want to read... I am a writer."**

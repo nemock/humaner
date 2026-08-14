@@ -67,6 +67,26 @@ fixed order:
 5. **LINT.md** — the mechanical AI-tell pass, subtractive only.
 6. **The intent gate** — re-read the brief, then the piece. Does it do the job?
 
+## The last step: make it your own
+
+This skill vastly improves the quality of AI-generated writing. Used as designed, it
+gets you 70 to 80 percent of the way to something worth publishing, and that is
+fantastic. It is not 100 percent, and the missing piece is not a bug that a future
+version will patch. The missing piece is you.
+
+AIs, as amazing as they are, don't really know what the real world is, so they can't
+make certain kinds of determinations. They can't tell which of two plausible details is
+the one that actually happened. They don't know what's in your heart and your mind and
+your soul. They can help you approximate your ideas, and they solve blank page syndrome
+outright. They can't do everything.
+
+So when the skill finishes, your job starts. Read the text. You will most likely find
+bits and pieces that are close but don't quite reflect real-world reality. Fix them in
+your own words, from what you actually know, and put yourself into the text as the
+human being operating the machine.
+
+The final step, every time: read the text and make it your own.
+
 ## The four files
 
 | File | Job | Person-specific? |
@@ -94,8 +114,13 @@ experiment was run here, three containment attempts failed, and deletion was the
 ## Attribution
 
 The craft layer condenses William Zinsser's *On Writing Well* (HarperCollins, 6th ed.)
-into working instructions. It is a study aid, not a substitute —
-[buy the book](https://www.harpercollins.com/products/on-writing-well-william-zinsser).
+into working instructions. It is a study aid, not a substitute. Dave's note on that:
+
+> I personally own three physical copies of *On Writing Well*. It is an incredibly
+> important book. I recommend that anybody, even using this skill, should still have a
+> copy. It's that important, if your goal is to write better.
+
+[Buy the book](https://www.harpercollins.com/products/on-writing-well-william-zinsser).
 The lint layer is codified from Wikipedia's
 [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 (CC BY-SA). The architecture, process, and case law come from several weeks of

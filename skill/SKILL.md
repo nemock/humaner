@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.3.0
+version: 3.4.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -26,6 +26,8 @@ allowed-tools:
   - Edit
   - Grep
   - Glob
+  - Task
+  - Agent
 ---
 
 # HumanER
@@ -147,7 +149,10 @@ wrongly imposed. If a Part 1 edit adds text, it is almost certainly wrong.
    candidate that craft did not produce.
 9. **Run the LINT.md pass.** Mechanical, last, and subtractive only. Follow its own
    running order at the bottom of that file.
-10. Run the checklist below.
+10. **Run the fresh-eyes gate** (next section): a reviewer subagent on a cheaper model
+    reads the finished text cold and reports what the tired eye signed off on. Mandatory
+    in unattended runs and for every spoken script.
+11. Run the checklist below.
 
 **Mode B — rewrite existing text.** Two sub-modes, and they have opposite coverage rules:
 
@@ -170,12 +175,55 @@ and no amount of sentence work fixes it.
 
 Then: diagnose the architecture tells, keep what is structurally sound (honest sourcing,
 real teaching), then the revision passes including the spine test, then LINT.md, then the
-checklist.
+fresh-eyes gate, then the checklist.
 
 **The lint order is fixed and internal to this skill:** CRAFT.md writes, VOICE.md breaks
 ties, LINT.md cleans, last. Linting earlier just polishes text with no pulse. Do not add
 a second AI-tell lint skill on top; LINT.md was built from the primary source and running
 two lint passes re-litigates settled carve-outs.
+
+## The fresh-eyes gate (the review that cannot be self-attested)
+
+Added 2026-08-28, after weeks of scheduled runs showed the pattern: every checklist item
+below gets ticked, and the script still ships with tongue-twister sentences the
+read-aloud pass was supposed to catch. The cause is not a missing rule. It is that the
+model that wrote the draft also grades it, deep in a long session, with more work queued
+behind this piece. A checklist self-attested by a tired drafter is a nod, not a pass.
+The fix is structural, like every real fix in this skill: the final read goes to a
+reviewer that did not write the draft and carries none of the session's context.
+
+**When it runs.** Mandatory for any piece drafted in an unattended or scheduled run, in
+any session that was doing other work before the drafting began, and for every spoken
+script (VO, TTS, video slides) regardless of session — the ear-dependent formats are
+where a stale context fails first. An interactive session drafting a single piece with
+the author reviewing live may skip it. If the subagent tool is unavailable in the
+running environment, say so in the output; never skip silently.
+
+**How it runs.** Spawn one subagent with the Task/Agent tool, model `sonnet` (`haiku` is
+acceptable for pieces under ~300 words; `opus` only for a book chapter; never the
+drafting model's own tier — the point is cheap fresh context, not a second expensive
+draft). Review the whole piece in one call, never slide-by-slide: choppiness hides in
+the joints, where every slide passes locally and the script is a skit reel globally. The
+reviewer gets the finished text after the LINT pass, the written brief, the format, and
+the path to this skill directory, with instructions to read CRAFT.md, the architecture
+tells in this file, and the format's dial in FORMATS.md. It does not get VOICE.md — it
+judges craft only, and a reviewer with a voice profile open starts enforcing mimicry.
+
+**What it does.** It is adversarial by instruction: assume the draft has problems and
+find them. Read the whole piece aloud in its head, start to finish. Quote every sentence
+that is choppy, hard to say, grammatically weak, or monotonous; name the craft problem
+in this skill's own vocabulary (unclear, cluttered, padded, monotonous, abstract,
+boring, hard to say aloud); flag skit-reel joints where a paragraph does not continue
+the one before it. It never rewrites — the drafting session holds the brief, the
+material, and the constraints, and a cheap model's rewrite is worse than the sentence it
+replaces. And it is told what not to flag, so it does not re-litigate the settled
+carve-outs: deliberate repetition, honest hedges on recalled numbers, the author's
+natural texture, parked digressions.
+
+**What happens next.** Fix every finding, or answer it in one line naming the carve-out
+that protects it. Then one verification round: the revised text goes to a second fresh
+reviewer, same spec. Fix what it finds and ship. Two rounds is the cap — a third round
+polishes noise, and an uncapped loop in an unattended run is a token leak.
 
 ## The architecture tells (what this skill exists to prevent)
 
@@ -273,11 +321,19 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
       no participial tails (*...,  highlighting the broader trend*).
 - [ ] Current-era AI vocabulary searched (LINT §6), plus *honestly, genuinely, truly,
       really, actually*.
+- [ ] No staged-reveal setups (*here's the part that*, *here's the thing*, *here's where
+      it gets interesting* — LINT §12b). Cut the drumroll; say the thing.
 - [ ] Plain verbs restored where *serves as / functions as / represents* replaced *is*.
 - [ ] At most one negative parallelism, including the easy-to-miss *X rather than Y* form.
 - [ ] Repeated words left repeated; no synonym-swapping to avoid an echo.
 - [ ] Every attribution names someone; every citation opened and confirmed to say the thing.
 - [ ] The draft got shorter. If lint added text, it was run wrong.
+
+**Then the fresh-eyes gate, where it applies:**
+- [ ] Reviewer subagent spawned per the gate above; every finding fixed or answered by a
+      named carve-out; the verification round run. In an unattended run this item is
+      never skipped, and ticking the boxes above is not a substitute — the gate exists
+      because self-attested checklists fail.
 
 **Last, and only where a choice remained — the selection check:**
 - [ ] For any sentence where two or more versions were all good writing, does the one you
@@ -355,3 +411,12 @@ different depth — the skill drifting from writing well toward imitating the wr
   positions and argument moves, the story bank, the constraints. His closing line, which
   is the standard this file answers to: **"We're trying to share great ideas with people
   and do so in a compelling way that they want to read... I am a writer."**
+- **2026-08-28 — The fresh-eyes gate; the staged reveal.** Weeks of scheduled
+  scriptwriting runs produced text better than unassisted drafts but still choppy —
+  tongue-twister sentences the read-aloud pass should have caught. Diagnosis: in a long
+  routine the drafting model self-attests its own checklist, and no added instruction
+  fixes what degraded instruction-following causes; the remedy had to be structural, so
+  the fresh-eyes gate was added — a fresh-context reviewer subagent on a cheaper model,
+  adversarial, critique-only, capped at two rounds. Same day, from audience-retention
+  data: viewers click off a video the moment the script says "here's the part that..."
+  The author's read: patronizing. The staged reveal became LINT §12b.

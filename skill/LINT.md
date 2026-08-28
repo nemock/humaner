@@ -255,6 +255,30 @@ style, so it is weak evidence of authorship on its own. It is still worth fixing
 
 ---
 
+## 12b. The staged reveal
+
+Added 2026-08-28 from this skill's first byline, off audience-retention data: on scripted
+videos, viewers click off at the moment the narration says *"here's the part that..."*.
+It is patronizing — the script pausing to tell the listener that the good part is
+coming, which presumes they could not spot it themselves.
+
+**Watch:** here's the part that, this is the part that, here's the thing, here's where
+it gets interesting, here's the kicker, and here's why that matters, now here's the
+twist.
+
+It is §1's inflated significance wearing a spoken-word costume, and a first cousin of
+the manufactured-intimacy tell in SKILL.md (*"this is the part that haunts me"*):
+significance announced instead of delivered, candor staged instead of structural. It has
+also become a distinct artifact of generated scripts, common enough that listeners hear
+the phrase and assume the machine.
+
+**Cut the drumroll and say the thing.** If the payoff does not land without an
+announcement that it is coming, the problem is the payoff, and no setup phrase rescues
+it. This binds hardest in spoken scripts, where the phrase spends seconds of the
+listener's patience on nothing.
+
+---
+
 ## 13. Machine residue in pasted text
 
 Tool-specific junk that survives a copy-paste and is unambiguous evidence of the pipeline.
@@ -313,7 +337,8 @@ is a better one than any word on any list above.
 1. Search for the §13 machine residue first. It is mechanical, instant, and unambiguous.
 2. Read for §1 and §2 — inflated significance and participial tails. These are the highest
    yield and usually the largest deletions.
-3. Search the §6 vocabulary, current era first, plus the house additions.
+3. Search the §6 vocabulary, current era first, plus the house additions and the §12b
+   reveal phrases.
 4. Check §4 attributions and §14 citations against real sources.
 5. Read the ending against §5, then the formatting against §11.
 6. Read the whole thing aloud, which catches §8 and §9 better than any search.

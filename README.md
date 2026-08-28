@@ -31,7 +31,7 @@ let the byline constrain, never generate.**
   deleted, on the author's own ruling: *"Simply taking words because I happened to say
   them doesn't make better writing. That's a cliché. That's a toupee."* What replaced
   them is in the case-law section of `skill/SKILL.md`, and it is the most useful part of
-  this repo: five dated corrections, each catching the same drift at a different depth.
+  this repo: dated corrections, each catching the same drift at a different depth.
 
 ## Installation
 
@@ -65,7 +65,37 @@ fixed order:
 4. **VOICE.md** — only where two or more versions are all good writing, pick the one
    that holds the author's positions.
 5. **LINT.md** — the mechanical AI-tell pass, subtractive only.
-6. **The intent gate** — re-read the brief, then the piece. Does it do the job?
+6. **The fresh-eyes gate** — a reviewer subagent on a cheaper model reads the finished
+   text cold, quotes every weak or choppy sentence, and names the craft problem.
+   Mandatory in unattended runs and for spoken scripts.
+7. **The intent gate** — re-read the brief, then the piece. Does it do the job?
+
+## The fresh-eyes gate
+
+Added in 3.4.0, after weeks of scheduled runs exposed a failure the checklist could not
+fix: quality falls off when the skill runs inside a long automated session. The drafts
+were better than unassisted writing and still shipped choppy, tongue-twister sentences
+the read-aloud pass should have caught. The cause was structural. The model that writes
+a draft also grades it, deep in a long context, with more work queued behind the piece —
+and a checklist self-attested by a tired drafter is a nod, not a pass.
+
+So the final read now goes to someone who didn't write the draft. After the lint pass,
+the skill spawns a reviewer subagent on a cheaper model (Sonnet by default, Haiku for
+short pieces) carrying none of the session's context: just the finished text, the brief,
+and the craft files. It is adversarial by instruction — assume the draft has problems,
+find them, quote each weak sentence, name the craft problem. It never rewrites, and it
+never sees VOICE.md, so it cannot drift into enforcing mimicry. The drafting session
+fixes every finding or defends it by naming a carve-out, then one verification round.
+Two rounds is the cap.
+
+The gate is mandatory for unattended runs and for every spoken script, and skippable
+only when a person is reviewing the draft live.
+
+3.4.0 also adds LINT §12b, the staged reveal: *here's the part that...*, *here's the
+thing*, *here's where it gets interesting*. It is inflated significance wearing a
+spoken-word costume, and it has become a distinct artifact of generated scripts —
+distinct enough that audience-retention graphs show viewers clicking off a video at the
+exact moment the narration says it. Cut the drumroll and say the thing.
 
 ## The last step: make it your own
 
@@ -96,7 +126,7 @@ The final step, every time: read the text and make it your own.
 | `skill/FORMATS.md` | Per-channel dials: book, article, LinkedIn, tweet, Reddit, VO, TTS | No |
 | `skill/VOICE.md` | Your byline: positions, story bank, constraints | **Yes — you write it** |
 
-`skill/SKILL.md` orchestrates, and its **case law** section documents the five rulings
+`skill/SKILL.md` orchestrates, and its **case law** section documents the rulings
 that shaped the architecture. Read it before customizing anything; every failure it
 records is one your customization can reintroduce.
 

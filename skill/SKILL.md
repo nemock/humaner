@@ -225,6 +225,17 @@ that protects it. Then one verification round: the revised text goes to a second
 reviewer, same spec. Fix what it finds and ship. Two rounds is the cap — a third round
 polishes noise, and an uncapped loop in an unattended run is a token leak.
 
+**What it does not permit.** The gate is a boundary, not a step. **The text that ships is
+byte-identical to the text the final reviewer read.** Any edit made after the gate
+re-opens it — a one-word fix included — and the two-round cap counts rounds, not edits, so
+a post-gate edit spends one of the two. If no round is left, the edit does not go in.
+
+The violation to watch for does not feel like a violation. The drafting model finishes the
+gate, then runs some *other* checklist — a structural pass, a format check, a completeness
+sweep — and that checklist produces an edit. It looks like housekeeping, so it goes in
+unreviewed, and it was made by exactly the tired context this gate exists to distrust.
+**Order every other check BEFORE the gate.** Nothing runs after it.
+
 ## The architecture tells (what this skill exists to prevent)
 
 Text can pass every vocabulary-level check and still read as nobody. Watch for these.
@@ -330,6 +341,8 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
 - [ ] The draft got shorter. If lint added text, it was run wrong.
 
 **Then the fresh-eyes gate, where it applies:**
+- [ ] **Nothing was edited after the gate.** The text about to ship is byte-identical to
+      what the final reviewer read. If any later check produced an edit, the gate re-opens.
 - [ ] Reviewer subagent spawned per the gate above; every finding fixed or answered by a
       named carve-out; the verification round run. In an unattended run this item is
       never skipped, and ticking the boxes above is not a substitute — the gate exists

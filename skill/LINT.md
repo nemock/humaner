@@ -116,6 +116,55 @@ the source cannot be named, the sentence was decoration.
 
 ---
 
+## 4b. The groundless prevalence claim
+
+Added 2026-08-05 from this skill's first byline, catching it in a shipped article: *"They're
+typically disingenuous unless we have real data showing that something is in fact
+overlooked. We're just making groundless anecdotal statements that tend to stick out like a
+sore thumb. This is usually why people will look at articles and immediately assume it's
+AI-generated, because these are very formulaic statements."*
+
+**Watch:** most people don't, most founders have never, nobody tells you, nobody talks
+about, what most people don't realize, the part everyone skips, few companies know, you've
+probably never heard of, everyone gets this wrong.
+
+**A statement about what a population knows or does is an empirical claim, and it needs a
+receipt like any other.** "Most founders have never heard of the value analysis committee"
+asserts a fact about thousands of people. Either a survey says so and you cite it, or you do
+not know it. This is §4's rule pointed at the writer's own assertion instead of at a vague
+third party, and it is easier to miss precisely because there is no "experts say" to flag.
+
+Three costs, in the order they hurt:
+
+1. **It can be false to the reader's own experience**, which is worse than vague. A reader
+   who has sat in front of the committee in question reads "most founders have never heard
+   of it" and stops trusting the rest. The claim was reaching for the reader and pushed them
+   away.
+2. **It is a formulaic tell.** The shape is so common in generated prose that readers use it
+   to identify machine writing on sight.
+3. **It usually replaces the better sentence.** The reason the writer wanted the claim is
+   almost always available and defensible one level down.
+
+**The fix is not to hedge it.** "Many founders may not be aware" is the same claim wearing a
+qualifier, and CRAFT.md's rule on little qualifiers already forbids it. Ask what you were
+actually trying to say and say that:
+
+> Seat two is the committee **most founders have never heard of**.
+> Seat two is the committee **you underestimate** — you know it exists; what is easy to miss
+> is that it outranks your champion.
+
+The second is defensible, sharper, and it does argumentative work: it follows from the
+previous section instead of arriving as trivia. Note what changed. The first is a claim
+about the reader's **ignorance**, which you cannot know. The second is a claim about their
+**judgment**, which the piece then goes on to support. When this pattern appears, that
+conversion is almost always available.
+
+The neighbouring ban on secret-knowledge framing (*the part nobody says out loud*, *the test
+everyone skips*) is the same defect wearing a hat: it claims privileged knowledge by
+asserting general ignorance, and it costs trust for the same reason.
+
+---
+
 ## 5. The "Challenges and Future Outlook" ending
 
 A rigid formula that shows up at the end of generated pieces:
@@ -290,22 +339,64 @@ style, so it is weak evidence of authorship on its own. It is still worth fixing
 
 ---
 
-## 12b. The staged reveal
+## 12b. Announcing the move instead of making it
 
-Added 2026-08-28 from this skill's first byline, off audience-retention data: on scripted
-videos, viewers click off at the moment the narration says *"here's the part that..."*.
-It is patronizing — the script pausing to tell the listener that the good part is
-coming, which presumes they could not spot it themselves.
+Two shapes, one defect: a clause whose only content is telling the listener what you are
+about to do. Both were caught at a microphone, a year apart in ruling but the same week
+in kind.
+
+### Shape one: the staged reveal
+
+Added 2026-08-28 off audience-retention data: on scripted videos, viewers click off at
+the moment the narration says *"here's the part that..."*. It is patronizing — the script
+pausing to tell the listener that the good part is coming, which presumes they could not
+spot it themselves.
 
 **Watch:** here's the part that, this is the part that, here's the thing, here's where
 it gets interesting, here's the kicker, and here's why that matters, now here's the
 twist.
 
-It is §1's inflated significance wearing a spoken-word costume, and a first cousin of
-the manufactured-intimacy tell in SKILL.md (*"this is the part that haunts me"*):
-significance announced instead of delivered, candor staged instead of structural. It has
-also become a distinct artifact of generated scripts, common enough that listeners hear
-the phrase and assume the machine.
+### Shape two: the announced qualification
+
+Added 2026-09-05, cutting one from a daily script in the booth. The line read *"I want to
+be careful with that story, because this is not the argument that AI is making engineers
+worse."* The first eight words were deleted at the mic:
+
+> "It's a telegraph. It's just announcing what you're actually getting at. I don't think
+> it really represents good writing or even an effective bridge."
+
+The sentence does its whole job starting at *"This is not the argument."* The announcement
+bought nothing, and it was doing duty as a transition, which is the part that makes it
+worth its own entry — a telegraph is not a bridge. Where a real bridge is needed, the
+joint is built from the noun still in the listener's ear (CRAFT.md §7 pass 4), never from
+a clause describing the turn you are about to take.
+
+**Watch:** I want to be careful here, I want to be careful with that, let me be careful,
+let me be clear, to be clear, let me be precise about this, it's worth being precise
+about, I should say, I want to say, in fairness, to be fair, I'll give you what that
+looks like, you can watch this happen.
+
+### Why both are here
+
+Announcing the move is §1's inflated significance wearing a spoken-word costume, and a
+first cousin of the manufactured-intimacy tell in SKILL.md (*"this is the part that
+haunts me"*): significance announced instead of delivered, candor staged instead of
+structural. It has also become a distinct artifact of generated scripts, common enough
+that listeners hear the phrase and assume the machine.
+
+**Neither watch list above is the category, and shape two is the proof.** *"I want to be
+careful with"* appeared on no list in this file on 2026-09-05, so the lint pass grepped
+and found nothing, and two fresh-eyes reviewers read past it in consecutive rounds. The
+drafting run had even flagged the phrase as "slightly meta" and then talked itself out of
+the flag by calling it audible signposting under CRAFT.md §9 — which it is not. §9
+signposting means cues the ear can follow through the argument, never narration of your
+own rhetorical intent.
+
+**The category is: any clause whose only content is telling the listener what you are
+about to do.** The test is subtraction, the same as §6b. Strike the clause and read what
+is left. If the sentence still makes the move, the clause was narration and it goes. If
+the sentence collapses, the move was never in the prose to begin with, and the fix is the
+move, not the announcement of it.
 
 **Cut the drumroll and say the thing.** If the payoff does not land without an
 announcement that it is coming, the problem is the payoff, and no setup phrase rescues
@@ -374,7 +465,9 @@ is a better one than any word on any list above.
    yield and usually the largest deletions.
 3. Search the §6 vocabulary, current era first, plus the house additions and the §12b
    reveal phrases. Then read for §6b, the worn figures, which no word search will find.
-4. Check §4 attributions and §14 citations against real sources.
+4. Check §4 attributions and §14 citations against real sources, and search the §4b
+   prevalence shapes. For each hit ask what you can actually support, which is usually a
+   claim about the reader's judgment rather than their ignorance.
 5. Read the ending against §5, then the formatting against §11.
 6. Read the whole thing aloud, which catches §8 and §9 better than any search.
 

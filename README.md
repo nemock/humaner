@@ -118,6 +118,35 @@ the figure is load-bearing and stays. What §6b forbids is resolving a tired met
 reaching for a fresher-sounding one, which only produces a different cliché a year later.
 No file in this skill supplies a replacement.
 
+## What a watch list cannot catch
+
+3.6.0 brings over two rules the skill had been running privately, and one lesson that
+only showed up once they sat side by side.
+
+**§4b, the groundless prevalence claim.** *Most founders have never heard of X* is an
+empirical claim about thousands of people, and it needs a receipt like any other. It is
+§4's rule turned on the writer's own assertion instead of on a vague third party, which
+makes it harder to spot, since there is no "experts say" to flag. It also costs more than
+vagueness: a reader who has personally sat in the room reads it, knows it is false, and
+stops trusting the piece. The repair is reliable — convert the claim about the reader's
+*ignorance* into one about their *judgment*, which the piece can then go on to support.
+
+**§12b widened from one shape to two.** It began as the staged reveal (*here's the part
+that...*). A second shape turned up in a booth a week later: the announced qualification,
+*"I want to be careful with that story, because..."* — a clause whose only content is
+telling the listener what you are about to do. Same defect, different costume, so the
+section was retitled *Announcing the move instead of making it*.
+
+The lesson is in how the second shape was found, which was not by the lint pass. The
+phrase appeared on no list, so the grep came back clean and two consecutive fresh-eyes
+rounds read past it. The standing hazard in a skill like this has always been that **a
+list in an instruction file always gets executed.** This is its mirror: **anything absent
+from the list is invisible, and a clean grep reads as a passed check.** So §12b and §6b
+both now state their *category* and a subtraction test, not just their phrases. Strike the
+clause and read what is left. If the sentence still makes the move, the clause was
+narration. If it collapses, the move was never in the prose and the fix is the move, not
+the announcement of it.
+
 ## The last step: make it your own
 
 This skill vastly improves the quality of AI-generated writing. Used as designed, it

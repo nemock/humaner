@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.5.0
+version: 3.6.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -336,12 +336,19 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
       family (*wearing different clothes*, *dressed up as*) and any other figure you have
       read many times before. Strike it and check whether the sentence still says the whole
       thing. Never swap in a fresher-sounding metaphor.
-- [ ] No staged-reveal setups (*here's the part that*, *here's the thing*, *here's where
-      it gets interesting* — LINT §12b). Cut the drumroll; say the thing.
+- [ ] No announced moves (LINT §12b), in either shape: the staged reveal
+      (*here's the part that*, *here's the thing*) and the announced qualification
+      (*I want to be careful with*, *let me be clear*, *to be fair*).
+      Strike any clause whose only content is telling the listener what you are about to
+      do, then check the sentence still makes the move. Searching the lists is not
+      sufficient.
 - [ ] Plain verbs restored where *serves as / functions as / represents* replaced *is*.
 - [ ] At most one negative parallelism, including the easy-to-miss *X rather than Y* form.
 - [ ] Repeated words left repeated; no synonym-swapping to avoid an echo.
 - [ ] Every attribution names someone; every citation opened and confirmed to say the thing.
+- [ ] No groundless prevalence claims (LINT §4b): *most people don't*, *nobody tells you*,
+      *what most people don't realize*. Convert the claim about the reader's ignorance into
+      one about their judgment, which the piece can then support.
 - [ ] The draft got shorter. If lint added text, it was run wrong.
 
 **Then the fresh-eyes gate, where it applies:**

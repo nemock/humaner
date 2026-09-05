@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.4.0
+version: 3.5.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -332,6 +332,10 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
       no participial tails (*...,  highlighting the broader trend*).
 - [ ] Current-era AI vocabulary searched (LINT §6), plus *honestly, genuinely, truly,
       really, actually*.
+- [ ] Worn figures of speech read for, not searched for (LINT §6b): the clothing-swap
+      family (*wearing different clothes*, *dressed up as*) and any other figure you have
+      read many times before. Strike it and check whether the sentence still says the whole
+      thing. Never swap in a fresher-sounding metaphor.
 - [ ] No staged-reveal setups (*here's the part that*, *here's the thing*, *here's where
       it gets interesting* — LINT §12b). Cut the drumroll; say the thing.
 - [ ] Plain verbs restored where *serves as / functions as / represents* replaced *is*.

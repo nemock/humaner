@@ -97,6 +97,27 @@ spoken-word costume, and it has become a distinct artifact of generated scripts 
 distinct enough that audience-retention graphs show viewers clicking off a video at the
 exact moment the narration says it. Cut the drumroll and say the thing.
 
+## Worn figures of speech
+
+Added in 3.5.0 as LINT §6b, from a writer cutting one of his own sentences: *the same
+shape wearing different clothes* became *a similar shape*. The reason matters more than
+the edit. It was not ornament trimmed for economy. The clothing-swap metaphor has become
+a generated cliché, and recognising one is a different skill from spotting padding.
+
+§6b is §6 one level up. §6 lists single words that mark machine prose; §6b catches whole
+figures, which is where current models are heaviest and where a word search finds
+nothing. Its watch list — *dressed up as*, *a Trojan horse for*, *the tip of the
+iceberg*, *a perfect storm of* — will go stale the way §6's era lists did, so the
+category is stated instead: any figure of speech you have read many times before. If it
+arrived fully formed, it arrived from the training data.
+
+The rule is a test rather than a ban, because the same writer sharpened a second metaphor
+in the same sitting. Strike the figure and read what is left. If the sentence still says
+the whole thing, the figure was decoration and goes. If the sentence loses its argument,
+the figure is load-bearing and stays. What §6b forbids is resolving a tired metaphor by
+reaching for a fresher-sounding one, which only produces a different cliché a year later.
+No file in this skill supplies a replacement.
+
 ## The last step: make it your own
 
 This skill vastly improves the quality of AI-generated writing. Used as designed, it

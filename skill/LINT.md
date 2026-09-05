@@ -155,6 +155,41 @@ any absolute sense: *key* and *landscape* have ordinary uses. Density is the sig
 
 ---
 
+## 6b. Worn figurative language
+
+Added 2026-09-02 from this skill's first byline, off a final pass on a newsletter draft:
+the clothing-swap metaphor — *the same thing wearing different clothes*, *dressed up as*,
+*in a new outfit*, *X wearing a Y costume* — has become a generated cliché, and not a
+figure the writer would reach for unprompted.
+
+**Watch:** wearing different clothes, dressed up as, in a new suit, the same X in a new
+outfit, wolf in sheep's clothing, a Trojan horse for, X wearing a Y mask, at its heart lies,
+a double-edged sword, the tip of the iceberg, a perfect storm of.
+
+This is §6 one level up. §6 catches single words; this catches whole figures, which is where
+current models are heaviest and where a search on individual words finds nothing. The list
+above will go stale the way §6's eras did, so treat it as a sample of a category rather than
+the category itself. **The category is: any figure of speech you have read many times
+before.** If it arrived fully formed, it arrived from the training data.
+
+**The fix is a test, not a substitution.** Strike the figure and read what is left.
+
+- If the sentence still says the whole thing, the figure was decoration. Delete it and stop.
+- If the sentence loses its argument, the figure is load-bearing. It stays, and the only
+  question left is whether the wording is one a person would actually say out loud.
+
+**Do not resolve a tired metaphor by reaching for a fresher-sounding one.** That produces a
+different cliché a year later, and it is the toupee failure this skill exists to refuse (see
+the 2026-07-31 and 2026-08-03 case law). A replacement figure is legitimate only when it
+survives the read-aloud test on its own, and no file in this skill supplies one.
+
+**Why this is a lint rule and not a voice note.** The same observation can be written two
+ways: as a description of what the writer does, or as an instruction to remove something.
+Only the second belongs in a drafting pipeline, because only the second runs before a human
+reads the draft. When a ruling arrives as the first, convert it.
+
+---
+
 ## 7. Restore the plain verb
 
 Generated prose avoids *is* and *are*. The source cites a measured 10-percent-plus drop in
@@ -338,7 +373,7 @@ is a better one than any word on any list above.
 2. Read for §1 and §2 — inflated significance and participial tails. These are the highest
    yield and usually the largest deletions.
 3. Search the §6 vocabulary, current era first, plus the house additions and the §12b
-   reveal phrases.
+   reveal phrases. Then read for §6b, the worn figures, which no word search will find.
 4. Check §4 attributions and §14 citations against real sources.
 5. Read the ending against §5, then the formatting against §11.
 6. Read the whole thing aloud, which catches §8 and §9 better than any search.

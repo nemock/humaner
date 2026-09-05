@@ -435,6 +435,37 @@ different depth — the skill drifting from writing well toward imitating the wr
   positions and argument moves, the story bank, the constraints. His closing line, which
   is the standard this file answers to: **"We're trying to share great ideas with people
   and do so in a compelling way that they want to read... I am a writer."**
+- **2026-08-05 — The groundless prevalence claim.** A shipped article opened a section
+  "the committee most founders have never heard of." The author works in that field, and
+  most founders do know what a value analysis committee is; what they do is underestimate
+  it, because winning the surgeon champion feels like the hard part. The ruling: *"They're
+  typically disingenuous unless we have real data showing that something is in fact
+  overlooked... this is usually why people will look at articles and immediately assume it's
+  AI-generated, because these are very formulaic statements."* Two things make this worth
+  its own entry rather than folding into the existing secret-knowledge ban. First, the
+  failure is **factual, not stylistic** — the sentence asserts something about a population
+  the writer has not measured, so it belongs with the fabrication guardrail, and a reader
+  who knows better stops trusting the piece. Second, the repair is reliable: the claim you
+  wanted is nearly always one level down and defensible, converting a claim about the
+  reader's **ignorance** into one about their **judgment**, which the piece can then support.
+  Codified as LINT §4b. A catalogue scan the same day found 41 instances across shipped
+  articles and scripts, so this was a house habit and not one slip.
+- **2026-08-05 — Affectation is not anecdote (the 2026-08-03 ruling, re-caught in the
+  wild).** A newsletter article shipped an interjection, *"Ope,"* lifted from an interview
+  transcript and kept as a voice marker. The author did not recognize the word: *"I don't
+  know what 'Ope' even means... We don't need to put little cute meaningless words in our
+  text just because it might be something that comes from a transcript of what I said.
+  That doesn't mean that it's actually good writing."* This is the toupee ruling again, so
+  the lesson is not a new rule but a demonstration that transcript provenance keeps getting
+  mistaken for authority. **Transcript fidelity is not a source of quality.** A word is not
+  earned by having been said; it is earned by doing work in the sentence. The clarification
+  worth holding onto is the boundary drawn: *"There's a difference between telling a story
+  and sharing an anecdote that's relevant to an article and just adding silly affectations.
+  It's the affectations that we're avoiding."* So the guard against tics must not harden
+  into a ban on narrative. A relevant story that carries the argument is welcome under the
+  Part 3 rules; a verbal mannerism imported to signal authenticity is the defect. When
+  tempted to keep a quirk because it appears in the author's speech, apply the plainness
+  test in the header: if the plain sentence is better writing, the plain sentence wins.
 - **2026-08-28 — The fresh-eyes gate; the staged reveal.** Weeks of scheduled
   scriptwriting runs produced text better than unassisted drafts but still choppy —
   tongue-twister sentences the read-aloud pass should have caught. Diagnosis: in a long
@@ -444,3 +475,40 @@ different depth — the skill drifting from writing well toward imitating the wr
   adversarial, critique-only, capped at two rounds. Same day, from audience-retention
   data: viewers click off a video the moment the script says "here's the part that..."
   The author's read: patronizing. The staged reveal became LINT §12b.
+
+- **2026-08-31 — The gate is a boundary, not a step.** A weekly show script reached the
+  recording booth carrying a superfluous sentence ("The remote monitoring piece is worth
+  being precise about"), caught at the mic. Neither fresh-eyes reviewer had flagged it,
+  because neither had seen it: it was written *after* both rounds closed, by a separate
+  pre-booth structural check that ran last. Two lessons. First, **order every other check
+  before the gate** — a post-gate edit is made by exactly the context the gate exists to
+  distrust, and it feels like housekeeping, which is why it goes in unreviewed. Second, the
+  structural check's own wording ("nothing depends on the previous card to parse") was a
+  mechanically-checkable criterion sitting next to a craft instruction, so it got executed
+  mechanically as a pronoun-restating pass. That is a recurring failure worth naming on its
+  own: **any craft instruction that contains a testable-looking clause will be satisfied by
+  testing the clause.** The ruling: *"We should run a humaner pass on the full script
+  before bringing up the booth. It is intended to catch those items."*
+- **2026-09-05 — The telegraph clause; a watch list makes its absences invisible.** A daily
+  script reached the booth opening a card with *"I want to be careful with that story,
+  because this is not the argument that AI is making engineers worse."* The first eight
+  words were cut at the mic: *"It's a telegraph. It's just announcing what you're actually
+  getting at. I don't think it really represents good writing or even an effective bridge."*
+  Three things came out of it. First, the **announced qualification is the staged reveal in
+  its other costume** — same defect, so LINT §12b was widened from one shape to two and
+  retitled "Announcing the move instead of making it." Second, **a telegraph is not a
+  bridge:** the clause survived partly because it sat at a joint and looked like connective
+  tissue, and a real joint is built from the noun still in the listener's ear (CRAFT.md §7
+  pass 4), never from a clause describing the turn you are about to take. Third, and the
+  reason this is case law rather than a line item: **the phrase was on no list in LINT.md,
+  so the lint grep returned clean and two consecutive fresh-eyes rounds read past it.** The
+  standing hazard has always been stated as *a list in an instruction file always gets
+  executed*; this is its mirror, **anything absent from the list is invisible**, and a clean
+  grep reads as a passed check. §6b had already immunized itself against this ("treat it as
+  a sample of a category rather than the category itself") and §12b had not, so §12b now
+  states its category — *any clause whose only content is telling the listener what you are
+  about to do* — and the subtraction test, not just its phrases. The drafting run had in
+  fact flagged the phrase as "slightly meta" and then talked itself out of the flag by
+  calling it CRAFT.md §9 audible signposting, which it is not; §9 means cues the ear can
+  follow through the argument, never narration of your own rhetorical intent. That
+  rationalization is now named in §12b so it cannot be reused.

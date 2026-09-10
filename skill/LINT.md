@@ -84,7 +84,11 @@ Advertisement or travel-brochure prose arriving in something that is not an adve
 
 **Watch:** boasts a, vibrant, rich, profound, enhancing, showcasing, exemplifies, a
 commitment to, natural beauty, nestled, in the heart of, groundbreaking, renowned,
-featuring, a diverse array of, a rich tapestry.
+featuring, a diverse array of, a rich tapestry. Spoken and ad-copy forms, absorbed from
+a spoken-script pass 2026-09-10: game changer, in a world where, imagine a world
+where, unlock the potential, say goodbye to X, supercharge, revolutionize, seamless; and
+reflexive praise of a quoted source (*put it perfectly*, *nailed it*, *couldn't have said
+it better*), which is the press-release subtype pointed at someone else's sentence.
 
 Two subtypes worth naming because they are easy to miss:
 
@@ -177,6 +181,12 @@ boilerplate, it is speculative, and it is a summary ending, which CRAFT.md §8 a
 Cut it and find the nearest exit. In a book chapter, apply the repeat-vs-operate test from
 the FORMATS.md book dial instead.
 
+**The end-signaler** is the spoken form (absorbed 2026-09-10 from a spoken-script pass, ruling of 2026-06-21): *in conclusion*, *to conclude*, *to recap*, *let's recap*,
+*to wrap up*, *wrapping up*, *before you go*, *before you click away*, *to sum up*,
+*lastly*, *so there you have it*, *the bottom line is*, *at the end of the day*. In a
+video any phrase that announces the ending tells the viewer to leave, and the retention
+graphs show them doing it (the retention graphs on the private master's channel). Cut it and end.
+
 ---
 
 ## 6. AI vocabulary, by era
@@ -201,6 +211,18 @@ Soft ban — cut by default, keep only with a stated reason.
 
 Treat this as a search list for a pass over finished text. It is not a banned-word list in
 any absolute sense: *key* and *landscape* have ordinary uses. Density is the signal.
+
+**The honesty presupposition in all its forms** (absorbed 2026-09-10 from a spoken-script pass, rulings of 2026-06-22 and 2026-07-31). Announcing that you are about to be
+honest indicts everything before it: *to be honest*, *I'll be honest*, *let me be honest*,
+*truth be told*, *in all honesty*, *to be real with you*, *I owe you some honesty*. The
+self-applied adjective carries the same presupposition and slips past a search for the
+adverb: *my honest answer*, *the honest truth*, *honest opinion*, *if I'm honest*. The author,
+cutting *my honest answer is almost never* from a script: *"if you have to identify what
+you're saying right now as honest, then what does that mean about everything else you
+say?"* Where a hedge is wanted, hedge with uncertainty, not honesty: *as best I can tell*,
+*it seems my answer is*. Still legal: describing someone else's account as the honest one,
+reporting what others were asked to do, and *honestly* addressed to the reader as an
+invitation (*honestly, what's the one task you won't hand off?*).
 
 ---
 
@@ -368,7 +390,8 @@ spot it themselves.
 
 **Watch:** here's the part that, this is the part that, here's the thing, here's where
 it gets interesting, here's the kicker, and here's why that matters, now here's the
-twist.
+twist, the truth is, make no mistake, real talk, buckle up, plot twist, and the twist?,
+and that, right there, is, let that sink in, sit with that.
 
 ### Shape two: the announced qualification
 
@@ -388,7 +411,14 @@ a clause describing the turn you are about to take.
 **Watch:** I want to be careful here, I want to be careful with that, let me be careful,
 let me be clear, to be clear, let me be precise about this, it's worth being precise
 about, I should say, I want to say, in fairness, to be fair, I'll give you what that
-looks like, you can watch this happen.
+looks like, you can watch this happen, I want to be fair about that, I want to be
+precise, I want to be accurate, I'll try to be fair.
+
+Still legal: *to be fair* as an ordinary concessive in the middle of an argument, and
+describing someone else's care (*the authors were careful about this*). The target is
+the writer announcing a virtue of his own that the next clause was going to demonstrate
+anyway; announcing it presupposes he lacked it until now, the same mechanism as the
+honesty presupposition in §6.
 
 ### Why both are here
 

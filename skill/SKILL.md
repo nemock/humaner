@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.7.0
+version: 3.7.1
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -566,4 +566,6 @@ different depth — the skill drifting from writing well toward imitating the wr
   other; LINT.md owns the categories, and everything else should point at it. Also named:
   the formula a weekly listener hears across episodes, which no per-piece pass can see.
   Codified as LINT §12c, CRAFT.md §4 and §6, architecture tell 12, and the reviewer brief
-  above.
+  above. Same day, a script pipeline's own cliché blocklist and its copy-out scanner
+  were replaced with pointers to this skill, and LINT absorbed the residue (§3, §5, §6,
+  §12b). Version 3.7.1.

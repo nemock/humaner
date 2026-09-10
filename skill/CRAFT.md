@@ -170,6 +170,19 @@ signals a claim the writer has not made concrete enough to stand on its own. Fix
 adverb. (**"genuinely"** and **"honestly"** carry a further problem — staged candor presupposes
 prior dishonesty — and many bylines soft-ban them outright; see VOICE.md Part 4.)
 
+**Cut the clusters that announce the explaining. [against instinct]** Zinsser's clutter
+chapter names them: *I might add*, *it should be pointed out*, *it is interesting to note*.
+If you might add, add it. If it should be pointed out, point it out. If it is interesting,
+make it interesting; being told that something is interesting is the surest way to tempt
+the reader to find it dull. The spoken descendants are the same clutter with a microphone:
+*I want to be careful here*, *here's the part that matters*, *worth sitting with*, *the real
+question is*, *and that's the whole point*, *let me show you*. Every one is a note the
+writer made to himself about what the next sentence should do, left in the text. **The test
+is transplantation:** if the clause could be moved unchanged into a piece on another
+subject, it carries nothing of this piece and it goes. (Added 2026-09-10; the rule was in
+the book and in the wiki atom for it, and not in this file, which is how the same clause
+reached three microphones in one month. Full category and the corpus evidence: LINT.md §12c.)
+
 **Reach for the period sooner.** A hopelessly mired sentence usually holds two dissimilar thoughts.
 Break it. There is no minimum sentence length.
 
@@ -238,6 +251,11 @@ The truth is more interesting than anything you can add.
   them.
 - **Never over-explain.** Do not tell readers what they know or can surmise. **The reader plays a
   major role in the act of writing and must be given room to play it.**
+- **Drop the bomb and say nothing.** State the striking fact and let it speak, with no notice
+  that it was striking. *Worth sitting with*, *read that again*, *let that sink in*, *and that
+  matters*, *why this matters* are the exclamation point with more syllables: they tell the
+  reader a moment was remarkable and rob them of finding it so. If the fact needs the notice,
+  the fact is not strong enough, and the notice will not save it.
 - **Color is organic to the fact, not a separate ingredient.** A reporter whose lead was all *Whoosh!
   It was incredible* had buried the real specifics on page nine; asked why, he said "in the lead I
   was writing color." Reject the premise. Present the colorful fact.
@@ -262,8 +280,10 @@ previous sentence. Rewriting is mostly reshaping and tightening, not producing w
 
 ### The passes, in order
 
-1. **Cut.** Bracket every component doing no useful work and delete it. **Most first drafts can be
-   cut by 50 percent without losing any information or the author's voice.** (This figure is
+1. **Cut.** Bracket every component doing no useful work and delete it. Bracket, too, every
+   clause that could be transplanted unchanged into a different piece (§4): the bracket test
+   finds words doing no work, the transplant test finds whole clauses doing none. **Most first
+   drafts can be cut by 50 percent without losing any information or the author's voice.** (This figure is
    calibrated for articles. Book manuscripts run Mode B1 and preserve coverage — clutter goes,
    chapters do not. See the book dial in FORMATS.md.) Ask of every sentence:
    is every word doing new work? Can this be said with more economy? Is anything pompous or faddish?

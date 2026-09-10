@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.6.0
+version: 3.7.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -206,15 +206,33 @@ draft). Review the whole piece in one call, never slide-by-slide: choppiness hid
 the joints, where every slide passes locally and the script is a skit reel globally. The
 reviewer gets the finished text after the LINT pass, the written brief, the format, and
 the path to this skill directory, with instructions to read CRAFT.md, the architecture
-tells in this file, and the format's dial in FORMATS.md. It does not get VOICE.md — it
+tells in this file, the format's dial in FORMATS.md, **and LINT.md §8, §12b and §12c** (the
+category statements and their tests; the reviewer is told the phrase lists in those
+sections are samples of a category, never the category). It does not get VOICE.md — it
 judges craft only, and a reviewer with a voice profile open starts enforcing mimicry.
+
+The reviewer has two lenses and is briefed on both by name, in this order, because the
+2026-09-10 audit found the brief in use carried only the second:
+
+1. **The scaffolding lens (LINT §12c).** Run the transplant test on every clause: could it
+   move unchanged into a piece on another subject? Produce a **scaffolding ledger**, a list
+   of every such clause quoted verbatim, the same kind of artifact as the spine test's
+   paragraph map, so the check cannot be nodded through. Then tally the rhetorical devices
+   against their caps (negative parallelism in all its shapes, the question posed only to
+   be answered, the landed line) and report the counts. For a weekly show, name any phrase
+   shared with the previous six scripts that is not a declared format beat.
+2. **The ear-and-structure lens.** Choppy, hard to say, monotonous, skit-reel joints,
+   antecedents, the lead, the ending, as below.
 
 **What it does.** It is adversarial by instruction: assume the draft has problems and
 find them. Read the whole piece aloud in its head, start to finish. Quote every sentence
 that is choppy, hard to say, grammatically weak, or monotonous; name the craft problem
 in this skill's own vocabulary (unclear, cluttered, padded, monotonous, abstract,
-boring, hard to say aloud); flag skit-reel joints where a paragraph does not continue
-the one before it. It never rewrites — the drafting session holds the brief, the
+boring, hard to say aloud, **scaffolding**); flag skit-reel joints where a paragraph does
+not continue the one before it. For every sentence it lets stand, it should be able to
+say what the sentence gives the reader that the one before it did not; LINT §15's rule
+that an editorial choice which cannot be explained is itself the tell applies to the
+reviewer's own pass. It never rewrites — the drafting session holds the brief, the
 material, and the constraints, and a cheap model's rewrite is worse than the sentence it
 replaces. And it is told what not to flag, so it does not re-litigate the settled
 carve-outs: deliberate repetition, honest hedges on recalled numbers, the author's
@@ -277,6 +295,14 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
     pyramid (CRAFT.md §3). The fix is the spine test (CRAFT.md §7 pass 7) — and never a
     layer of transition sentences pasted over the gaps, which produces a skit reel with
     segues.
+12. **The outline leak.** The writer's notes to himself left in the text: *I want to be
+    careful here*, *here's the part that matters*, *so where did the money go?*, *the real
+    question is*, *and that's the whole point*, *worth sitting with*, *let me show you*.
+    Each announces a move instead of making it, and each could be transplanted unchanged
+    into a piece on any subject, which is the test (LINT §12c). The scaffolding comes down
+    before the reader arrives. This is the parent of tells 7, 8 and 9 and of LINT §12b, and
+    it is listed here because the reviewer reads this section and had been reading past
+    every member of it that was not on a list. Tell 11 still outranks it.
 
 ## Final checklist (every piece, every format)
 
@@ -342,6 +368,12 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
       Strike any clause whose only content is telling the listener what you are about to
       do, then check the sentence still makes the move. Searching the lists is not
       sufficient.
+- [ ] Scaffolding read for (LINT §12c): every clause that could move unchanged into
+      another piece is quoted in a ledger and cut, or kept with a stated reason. The
+      significance stamp (*that matters*, *worth sitting with*), the question posed only to
+      be answered, *the real X*, *which is exactly why*, and the stage direction (*let me
+      show you*) are members; the list is not the category.
+- [ ] For a weekly show, the previous six scripts checked for shared non-format phrases.
 - [ ] Plain verbs restored where *serves as / functions as / represents* replaced *is*.
 - [ ] At most one negative parallelism, including the easy-to-miss *X rather than Y* form.
 - [ ] Repeated words left repeated; no synonym-swapping to avoid an echo.
@@ -512,3 +544,26 @@ different depth — the skill drifting from writing well toward imitating the wr
   calling it CRAFT.md §9 audible signposting, which it is not; §9 means cues the ear can
   follow through the argument, never narration of your own rhetorical intent. That
   rationalization is now named in §12b so it cannot be reused.
+
+- **2026-09-10 — Scaffolding and the transplant test; the reviewer gets the second lens.**
+  The author asked for an audit of the skill against the thing lists cannot reach: *I want
+  to be careful here* had just been caught a second time, in a different pipeline, five
+  days after the 09-05 ruling put it on LINT's list. The audit scanned 312 shipped pieces
+  and read the reviewer prompts actually sent by the routines. Four findings. First, the
+  skill works: the density of listed patterns in shipped scripts fell by about
+  four-fifths in three months. Second, what survives is one family this skill had never
+  named as one: the writer's outline left in the text (*here's the part that matters*,
+  *so where did the money go?*, *the real question is*, *and that's the whole point*,
+  *worth sitting with*), every member of which carries no noun from the piece, which gave
+  the family its test: **could the clause move unchanged into a piece on another
+  subject.** The test catches first offenses, which no list can, and Zinsser had already
+  stated the rule in the clutter chapter (*I might add*, *it should be pointed out*, *it
+  is interesting to note*) without it ever reaching CRAFT.md. Third, the fresh-eyes
+  reviewer's brief, as actually sent, asked only for ear and structure and did not give
+  the reviewer LINT.md, so two adversarial rounds were structurally unable to see the
+  category; the brief now carries two lenses and the reviewer produces a scaffolding
+  ledger. Fourth, blocklists kept in more than one place had grown without reading each
+  other; LINT.md owns the categories, and everything else should point at it. Also named:
+  the formula a weekly listener hears across episodes, which no per-piece pass can see.
+  Codified as LINT §12c, CRAFT.md §4 and §6, architecture tell 12, and the reviewer brief
+  above.

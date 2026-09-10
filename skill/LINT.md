@@ -277,6 +277,20 @@ wrong. **One per piece, at most, and only where a real misconception is being co
 The reorienting hammer in VOICE.md Part 2 is a legitimate instance of shape two; a second
 one in the same piece is engineering.
 
+Two dramatic cousins count against the same cap, because they are the same striptease:
+
+- **The countdown.** *Not the enclosure. Not the circuit board. The energy core.* Two or
+  three negations before the noun, staged so the noun lands as a reveal. Say the noun.
+- **The stamp.** *That's it. That's the whole lesson.* / *Read that again.* / *Full stop.* A
+  fragment placed after a sentence to certify that the sentence was the point. The sentence
+  either was the point or it was not; the stamp cannot make it one.
+
+**The defect is the tally, not the instance** (the author, 2026-09-10, on a deep-dive script that
+reached the booth with five instances, every one legal alone): a per-line check is blind
+to it by construction. Count them. A script pipeline can count the three §8 shapes mechanically with a cap and declared
+carve-outs; prose has no tool, so the reviewer counts by hand. A show's fixed sign-off may be
+one of these shapes every week, and then it is the piece's one.
+
 ---
 
 ## 9. Rule of three
@@ -403,6 +417,89 @@ announcement that it is coming, the problem is the payoff, and no setup phrase r
 it. This binds hardest in spoken scripts, where the phrase spends seconds of the
 listener's patience on nothing.
 
+## 12c. Scaffolding: the outline showing through (the transplant test)
+
+Added 2026-09-10 from an audit of every list in this file against 312 shipped pieces
+(228,000 words of scripts, a course, deep dives and a Substack catalog). Full analysis in the private master's routine_changes record. The audit found that the density of the patterns in this file
+fell by roughly four-fifths between June and September, so the file works, and that what
+survives in the August and September scripts is almost entirely one thing this file had
+never named as one thing.
+
+**The category: scaffolding.** A writer works from an outline. The outline says *now
+qualify this*, *this is the important part*, *now ask the question the reader has*, *now
+state the real problem*, *now land it*. Good writing executes those notes and removes them;
+the building stands and the scaffolding comes down before the reader arrives. Generated
+prose executes the note *and leaves the note in the text*, so the reader hears the writer's
+instructions to himself: *I want to be careful here. Here's the part that matters. So where
+did the money go? The real question is. And that's the whole point. Worth sitting with.*
+§12b's two shapes, §1's inflated significance and §4b's prevalence claim are all members;
+this section states the parent so that the next member, which is on no list, is still
+visible.
+
+**The test is transplantation, and it is the one test that catches first offenses.** Read
+each clause and ask: could this clause be moved, unchanged, into a piece on a different
+subject? A clause that carries no noun, number, name or mechanism from this piece carries
+nothing of this piece. It is not writing about the subject; it is narration of the writing.
+Strike it and read what is left, the same subtraction test as §6b and §12b. Every phrase on
+every list in this file passes the transplant test, which is why the lists keep growing one
+microphone at a time and why a grep always returns clean the first time. The 2026-09-05 and
+2026-09-10 rulings were the same clause, *I want to be careful here*, caught twice, five
+days apart, in two pipelines that each maintain their own list.
+
+**The members found in the shipped corpus, with the honest repair for each.** Counts are
+hits across the 228,000 words, so the reader can see which habits are house habits. The
+repair is never a fresher phrase; it is the content the phrase was standing in front of.
+
+- **The announcement** (§12b, both shapes; *here's the part that* 107, the announced
+  qualification 33). Repair: delete, and start at the substance.
+- **The significance stamp in spoken costume** (*that matters*, *why that matters*, *and
+  that's the whole point*, *worth sitting with*, *the number that matters*: 78). §1 lists the
+  encyclopedic forms (*testament*, *underscores*); these are the same move in a
+  conversational register, and they were not on the list. Repair: give the consequence
+  itself. *Why that matters. T-M-S only works if the pulse keeps hitting the right spot*
+  loses nothing when the first sentence goes.
+- **The question posed only to be answered** (*So where did the money go? A lot of it went
+  to AI.* / *So what was the missing control? Start with the specification.*: 62). The
+  writer's outline question, voiced. It is the staged reveal wearing a question mark, and
+  most of the hits sit at a section joint, which VOICE-TEMPLATE.md's caps already forbid
+  (question-form section transitions). One per piece. Repair: the answer, led by the noun
+  still in the listener's ear. A real question, one the reader is asking, survives; a
+  question the writer asks so he can answer it does not.
+- **The real X** (*the real question*, *the real problem*, *the actual work*, *the honest
+  answer*: 120 with *the answer is*). An adjective that indicts what came before it, the
+  same presupposition as *honestly* (LINT §6, house additions). Repair: name the problem. If
+  the problem needs *real* in front of it, the paragraph before it was the wrong paragraph.
+- **The clean-consequence connector** (*which is exactly why*, *and that's exactly what
+  happened*, *this is why*: 33). It lends inevitability the argument has not earned; the
+  reader is told a step followed rather than shown it. Repair: the step. If the step is
+  there, *so* carries it; if it is not, the connector was hiding the gap (CRAFT.md §3, no
+  smooth transition over a missing step).
+- **The stage direction** (*let me show you the decision underneath it*, *I'll give you
+  one of mine*, *let's start with*, *think of it as*: 114 with *think about it*). Repair:
+  show it. The reader can see you showing it.
+- **The countdown and the stamp** (§8, now named there: 39).
+- **The invented label** (*the altitude gap*, *the coverage gap*, *the acceleration trap*:
+  25, mostly one course). The coined-framework ban in SKILL.md's architecture tells, in lowercase.
+  Repair: describe the thing once; do not name it unless the book dial applies.
+
+**The formula the weekly listener hears.** A per-piece pass cannot see this one at all: a
+phrase that appears once per script and once per week. The audited corpus carried several per
+show: *worth sitting with* across four shows; *start with what X actually is* opening one
+show's analysis every week; *here's the shape of this one* as another's way into its second
+act; *if this were my company, I'd be asking one question* as the closer in two shows two
+days apart. A sign-on, a sign-off, and a show's declared structural beats are
+format and stay. Any other phrase that recurs across episodes as the way into content is
+a formula, and the audience learns it faster than the writer does. Before the gate, read
+the last six scripts of the show and search the new one for their non-format phrases.
+
+**What this section is not.** It is not a ban on transitions, on questions, on emphasis, or
+on the writer's presence. CRAFT.md §9 wants audible signposts in speech: a restatement in
+other words, a verdict on its own line, a question the listener is asking. The difference
+is content. *Sentire has no F-D-A clearance, and this deal doesn't pretend to be about
+getting one* signposts by carrying the nouns forward. *And here's why that matters*
+signposts by carrying nothing. The first cannot be transplanted; the second can be
+transplanted anywhere, and has been.
+
 ---
 
 ## 13. Machine residue in pasted text
@@ -463,8 +560,19 @@ is a better one than any word on any list above.
 1. Search for the §13 machine residue first. It is mechanical, instant, and unambiguous.
 2. Read for §1 and §2 — inflated significance and participial tails. These are the highest
    yield and usually the largest deletions.
-3. Search the §6 vocabulary, current era first, plus the house additions and the §12b
-   reveal phrases. Then read for §6b, the worn figures, which no word search will find.
+3. Search the §6 vocabulary, current era first, plus the house additions and both §12b
+   watch lists. Then READ for the three that no word search will find: §6b's worn figures,
+   §12b's category, the clause whose only content is announcing the move, and §12c's
+   parent category, scaffolding: run the transplant test on every clause and list the
+   ones that could move unchanged into another piece. The 2026-09-05 miss was a §12b
+   instance that sat on no list in this file and survived a grep plus two fresh-eyes
+   rounds, and the same clause was caught again on 2026-09-10 in a different pipeline, so
+   treat the lists as a starting point and the transplant and subtraction tests as the
+   actual check.
+3b. For a weekly show, open the previous six scripts and search the new one for any phrase
+   they share that is not the sign-on, the sign-off, or a declared structural beat
+   (§12c, the formula). Tally the §8 shapes, including the countdown and the stamp,
+   against the cap of one.
 4. Check §4 attributions and §14 citations against real sources, and search the §4b
    prevalence shapes. For each hit ask what you can actually support, which is usually a
    claim about the reader's judgment rather than their ignorance.

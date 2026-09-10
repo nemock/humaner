@@ -127,6 +127,12 @@ Discourse moves for the channel, not vocabulary to sample.
   gets its own line so the speaker can hit it. The deliberate non-contraction ("is not")
   marks the one line to slow down on.
 - Rhetorical questions work well aloud; answer within five words, blunt.
+- **No formulas across episodes (added 2026-09-10).** The sign-on, the sign-off, and a
+  show's declared structural beats are format and repeat on purpose. Any other phrase
+  that recurs across episodes as the way into content (*worth sitting with*, *here's the
+  shape of this one*, *start with what X actually is*, *if this were my company, I'd be
+  asking one question*) is a formula the weekly listener learns before the writer does.
+  Read the previous six scripts of the show before the gate (LINT §12c).
 - Never write applause lines. If a line sounds like it wants a pause for effect, cut it
   or flatten it; the delivery makes the emphasis, the text shouldn't beg for it.
 

@@ -294,12 +294,48 @@ miss.
   source flags this one as especially common in Grok output, and it is the shape most
   likely to survive a lint pass because it does not look like a rhetorical device.
 
-All three stage a misconception and then correct it, which implies the reader was thinking
-wrong. **One per piece, at most, and only where a real misconception is being corrected.**
-The reorienting hammer in VOICE.md Part 2 is a legitimate instance of shape two; a second
-one in the same piece is engineering.
+**The author's ruling, 2026-09-27, which replaces the one-per-piece ration this section used
+to carry:**
 
-Two dramatic cousins count against the same cap, because they are the same striptease:
+> "At this point, they just look like sloppy writing. It's not just that it's an AI cliché.
+> It just feels unimaginative and cheap as a writing structure. I'd much rather devote an
+> entire sentence to describing what something is and contrasting it in an interesting way
+> than try to conserve words by coming up with some pithy T-shirt slogan."
+
+**The category is compression standing in for description.** The device buys concision by
+staging a negation, and the reader receives a slogan where a description was owed. All three
+shapes also imply the reader had been thinking wrong, which was this section's original
+objection and still holds. The craft objection is the larger one, and it is why rationing was
+the wrong remedy: a cheap sentence does not become sound by being the only one of its kind in
+the piece. A cap also reads as an allowance, which is what a number in an instruction file
+always becomes.
+
+**The test is subtraction, then description.** Strike the negated half and read what remains.
+
+- If the remaining clause already says what the thing is, the negation was delay. Delete it
+  and stop.
+- If striking it leaves nothing, the sentence never described anything. **Write the
+  description**, and let the contrast live in a second sentence carrying a noun, a number, or
+  a mechanism.
+
+Worked example, from the article draft that produced the ruling. *"The barrier isn't secrecy or
+patents or engineering talent. The barrier is collateral damage."* Strike the first sentence and
+the second stands on its own, so the negation bought nothing. The repair supplied what the
+paragraph had been missing: *"The barrier is collateral damage. Fidelity had the analysts, the
+distribution and the brand to launch an index fund inside a quarter if it had wanted one, and
+none of that was ever what stood in the way."* Longer, and it now contains evidence.
+
+**Default to zero.** A survivor needs a reason statable aloud, and "it is the only one" is not
+a reason. The reorienting hammer in VOICE.md Part 2 remains a real move and does not require
+this structure: a hammer is a short sentence naming what is actually happening, which can be
+written as a plain assertion.
+
+**Ordinary negation is not the target.** A plain negative statement (*He wasn't.*), a
+comparative (*grounded in files on disk rather than in the model's memory*), and an honest
+concession (*none of this is an argument for getting away from the work*) all survive. The
+pattern is specifically: stage a claim, negate it, swap in the replacement.
+
+The two dramatic cousins fall under the same test, because they are the same striptease:
 
 - **The countdown.** *Not the enclosure. Not the circuit board. The energy core.* Two or
   three negations before the noun, staged so the noun lands as a reveal. Say the noun.
@@ -307,11 +343,13 @@ Two dramatic cousins count against the same cap, because they are the same strip
   fragment placed after a sentence to certify that the sentence was the point. The sentence
   either was the point or it was not; the stamp cannot make it one.
 
-**The defect is the tally, not the instance** (the author, 2026-09-10, on a deep-dive script that
-reached the booth with five instances, every one legal alone): a per-line check is blind
-to it by construction. Count them. A script pipeline can count the three §8 shapes mechanically with a cap and declared
-carve-outs; prose has no tool, so the reviewer counts by hand. A show's fixed sign-off may be
-one of these shapes every week, and then it is the piece's one.
+**A per-line check is blind to this by construction** (the author, 2026-09-10, on a deep-dive
+script that reached the booth with five instances, every one legal alone), because each instance
+reads acceptably alone. Under the 2026-09-27 ruling the target count is zero, so a tally is now a
+diagnostic where it used to be a gate: a non-zero count tells the reviewer where to read, and each
+hit is then resolved by the subtraction test above. A script pipeline can count the three shapes
+mechanically; prose has no tool, so the reviewer reads for them. A show's fixed sign-off is
+declared format and stays.
 
 ---
 
@@ -601,8 +639,8 @@ is a better one than any word on any list above.
    actual check.
 3b. For a weekly show, open the previous six scripts and search the new one for any phrase
    they share that is not the sign-on, the sign-off, or a declared structural beat
-   (§12c, the formula). Tally the §8 shapes, including the countdown and the stamp,
-   against the cap of one.
+   (§12c, the formula). Read for the §8 shapes, including the countdown and the stamp;
+   the target is zero and every survivor needs a stated reason.
 4. Check §4 attributions and §14 citations against real sources, and search the §4b
    prevalence shapes. For each hit ask what you can actually support, which is usually a
    claim about the reader's judgment rather than their ignorance.

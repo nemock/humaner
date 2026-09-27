@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.7.2
+version: 3.8.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -218,7 +218,8 @@ The reviewer has two lenses and is briefed on both by name, in this order, becau
    move unchanged into a piece on another subject? Produce a **scaffolding ledger**, a list
    of every such clause quoted verbatim, the same kind of artifact as the spine test's
    paragraph map, so the check cannot be nodded through. Then tally the rhetorical devices
-   against their caps (negative parallelism in all its shapes, the question posed only to
+   against their limits (negative parallelism in all its shapes, where the target is zero;
+   the question posed only to
    be answered, the landed line) and report the counts. For a weekly show, name any phrase
    shared with the previous six scripts that is not a declared format beat.
 2. **The ear-and-structure lens.** Choppy, hard to say, monotonous, skit-reel joints,
@@ -264,8 +265,8 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
    frameworks.
 2. **Uniform paragraph rhythm.** Every paragraph 3-5 sentences building to a bow.
    Vary or die.
-3. **Overclean parallelism.** "Not X, not Y. Z." more than once per piece is
-   engineering, not emphasis.
+3. **Overclean parallelism.** "Not X, not Y. Z." The structure substitutes a slogan for
+   a description. Default to zero and write the description instead (LINT.md §8).
 4. **Zero loose threads.** Everything introduced gets resolved. Park a digression
    instead; real thinking leaves stubs.
 5. **Courtroom numbers.** Every figure crisp and confident. A real writer hedges the
@@ -376,7 +377,9 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
       show you*) are members; the list is not the category.
 - [ ] For a weekly show, the previous six scripts checked for shared non-format phrases.
 - [ ] Plain verbs restored where *serves as / functions as / represents* replaced *is*.
-- [ ] At most one negative parallelism, including the easy-to-miss *X rather than Y* form.
+- [ ] Negative parallelism at zero by default, counting the countdown (*Not X. Not Y. Z.*)
+      and the stamp (*That's it.*), and including the easy-to-miss *X rather than Y* form.
+      Any survivor carries a reason you could state aloud (LINT §8).
 - [ ] Repeated words left repeated; no synonym-swapping to avoid an echo.
 - [ ] Every attribution names someone; every citation opened and confirmed to say the thing.
 - [ ] No groundless prevalence claims (LINT §4b): *most people don't*, *nobody tells you*,
@@ -577,4 +580,21 @@ different depth — the skill drifting from writing well toward imitating the wr
   to help write well, and hashtags are a mechanical function. The counts were removed,
   FORMATS.md now states that packaging (hashtags, character caps, link placement,
   aspect) belongs to the owning spec, and the reviewer brief says not to judge it.
-  Version 3.7.2.
+  Version 3.8.0.
+
+- **2026-09-27 — Negative parallelism is a craft defect, so the ration was the wrong remedy.**
+  LINT §8 had flagged the three shapes since 2026-08-03 on the grounds that they stage a
+  misconception, and it capped them at one per piece. Reviewing an issue where the drafting run
+  had deliberately kept exactly one per article, the author: *"At this point, they just look like
+  sloppy writing. It's not just that it's an AI cliché. It just feels unimaginative and cheap as
+  a writing structure. I'd much rather devote an entire sentence to describing what something is
+  and contrasting it in an interesting way than try to conserve words by coming up with some
+  pithy T-shirt slogan."* Three things follow. The category is **compression standing in for
+  description**, a craft objection that outranks the detection one. A cap on a cheap structure
+  reads as an allowance, the same defect every other number in an instruction file has, so the
+  cap is gone and the default is zero. And the remedy is a test where it used to be a count:
+  strike the negated half, and if nothing is left, the sentence never described anything, so
+  write the description and put the contrast in a second sentence carrying a noun, a number or a
+  mechanism. Nine instances were rewritten in the issue under review. Ordinary negation,
+  comparatives and honest concessions are explicitly not the pattern, and are named in §8 so the
+  rule does not over-apply. Version 3.8.0.

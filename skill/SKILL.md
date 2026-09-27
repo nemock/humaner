@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.7.1
+version: 3.7.2
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -236,7 +236,8 @@ reviewer's own pass. It never rewrites — the drafting session holds the brief,
 material, and the constraints, and a cheap model's rewrite is worse than the sentence it
 replaces. And it is told what not to flag, so it does not re-litigate the settled
 carve-outs: deliberate repetition, honest hedges on recalled numbers, the author's
-natural texture, parked digressions.
+natural texture, parked digressions. Nor does it judge packaging (hashtag counts,
+character caps, link placement), which the show's own spec owns.
 
 **What happens next.** Fix every finding, or answer it in one line naming the carve-out
 that protects it. Then one verification round: the revised text goes to a second fresh
@@ -569,3 +570,11 @@ different depth — the skill drifting from writing well toward imitating the wr
   above. Same day, a script pipeline's own cliché blocklist and its copy-out scanner
   were replaced with pointers to this skill, and LINT absorbed the residue (§3, §5, §6,
   §12b). Version 3.7.1.
+
+- **2026-09-27 — Packaging is not writing.** FORMATS.md carried hashtag counts that
+  contradicted a show's own publishing spec, and the fresh-eyes reviewer flagged the
+  show's compliant captions as writing defects. The author's ruling: the skill's job is
+  to help write well, and hashtags are a mechanical function. The counts were removed,
+  FORMATS.md now states that packaging (hashtags, character caps, link placement,
+  aspect) belongs to the owning spec, and the reviewer brief says not to judge it.
+  Version 3.7.2.

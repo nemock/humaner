@@ -5,6 +5,10 @@ piece runs, and what the ending does. The VOICE.md rules apply everywhere; this 
 sets the intensity. Where a bullet below names a stylistic default (CTA register,
 profanity ceiling), your VOICE.md Part 4 overrides it.
 
+**Packaging is out of scope.** Hashtags, character caps, link placement and aspect are
+mechanical functions owned by the channel's or show's own spec, never by this skill. A
+reviewer working from this file does not flag them.
+
 ## Quick table
 
 | Format | Spoken texture | Length discipline | Landed lines | CTA |
@@ -79,8 +83,8 @@ this dial states the overrides explicitly.
 
 - 120-250 words, first line is the hook and must survive the "...see more" fold.
 - One point, one receipt (a number, a mechanism, a source, or — occasionally — a
-  moment from a verified story), one blunt verdict. No hashtag piles (0-3, if any),
-  no emoji, no "Agree?" engagement bait.
+  moment from a verified story), one blunt verdict. No emoji, no "Agree?" engagement
+  bait.
 - Line breaks between thoughts are fine; the one-sentence paragraph is native here.
   But no manufactured staccato drama runs; short lines are verdicts, not drumrolls.
 - Decide your clean register in VOICE.md Part 4 and hold it. Heat stays aimed at
@@ -91,7 +95,7 @@ this dial states the overrides explicitly.
 - One thought, said once, no thread-bait. Two short declaratives where the second flips
   ("Most founders don't fail. They stall."), the X-not-Y contrast, or a deflating
   concrete image all work; pick what the thought calls for.
-- No hashtags, no "🧵", no engagement questions. An honest hedge is a fine tweet ending
+- No "🧵", no engagement questions. An honest hedge is a fine tweet ending
   when the claim is empirical.
 
 ## Reddit reply

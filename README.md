@@ -86,7 +86,8 @@ and the craft files. It is adversarial by instruction — assume the draft has p
 find them, quote each weak sentence, name the craft problem. It never rewrites, and it
 never sees VOICE.md, so it cannot drift into enforcing mimicry. The drafting session
 fixes every finding or defends it by naming a carve-out, then one verification round.
-Two rounds is the cap.
+Two rounds is the cap. (Since 3.9.0 that cap covers reading for new problems; any fix from
+the last round still gets a fresh read, scoped to the fix, before the piece ships.)
 
 The gate is mandatory for unattended runs and for every spoken script, and skippable
 only when a person is reviewing the draft live.

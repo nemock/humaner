@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.8.0
+version: 3.9.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -242,13 +242,24 @@ character caps, link placement), which the show's own spec owns.
 
 **What happens next.** Fix every finding, or answer it in one line naming the carve-out
 that protects it. Then one verification round: the revised text goes to a second fresh
-reviewer, same spec. Fix what it finds and ship. Two rounds is the cap — a third round
+reviewer, same spec. Two full rounds is the cap on reading for new problems: a third
 polishes noise, and an uncapped loop in an unattended run is a token leak.
+
+**A fix is new text, and someone reads it before the piece ships.** If the last round
+forces any wording change, send the changed sentences, each with the sentences on either
+side and the source where a fact changed, to one more fresh reviewer. Its whole job is the
+fix: does it read aloud cleanly, does it join its neighbors, is it still true. It does not
+hunt for new problems elsewhere. Anything it makes you change gets the same read. When a
+sentence keeps failing, stop rewriting it: cut it, or restore its last reviewed wording if
+that wording was true. Keep every fix pass small and surgical, because the fix pass is
+where new damage comes from. A deadline is not a reason to skip this; a piece waiting on
+one more read is cheaper than a human catching the line later.
 
 **What it does not permit.** The gate is a boundary, not a step. **The text that ships is
 byte-identical to the text the final reviewer read.** Any edit made after the gate
-re-opens it — a one-word fix included — and the two-round cap counts rounds, not edits, so
-a post-gate edit spends one of the two. If no round is left, the edit does not go in.
+re-opens it — a one-word fix included — and gets the read above. An edit is not exempt for
+being small, or because a reviewer asked for it. Nothing ships on text no reviewer has
+read.
 
 The violation to watch for does not feel like a violation. The drafting model finishes the
 gate, then runs some *other* checklist — a structural pass, a format check, a completeness
@@ -391,7 +402,8 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
 - [ ] **Nothing was edited after the gate.** The text about to ship is byte-identical to
       what the final reviewer read. If any later check produced an edit, the gate re-opens.
 - [ ] Reviewer subagent spawned per the gate above; every finding fixed or answered by a
-      named carve-out; the verification round run. In an unattended run this item is
+      named carve-out; the verification round run; every fix from the last round read by
+      a fresh reviewer before anything ships. In an unattended run this item is
       never skipped, and ticking the boxes above is not a substitute — the gate exists
       because self-attested checklists fail.
 
@@ -598,3 +610,12 @@ different depth — the skill drifting from writing well toward imitating the wr
   mechanism. Nine instances were rewritten in the issue under review. Ordinary negation,
   comparatives and honest concessions are explicitly not the pattern, and are named in §8 so the
   rule does not over-apply. Version 3.8.0.
+
+- **A fix is new text.** The gate said both "fix what it finds and ship" and "the text that
+  ships is byte-identical to what the final reviewer read," which cannot both hold once the
+  last round finds anything. A daily show script resolved that by fixing and shipping, and
+  those unread fixes were the worst lines in it; the author stopped on one at the microphone
+  and re-recorded a section. The ruling: finish the corrections first and deliver the best
+  version the first time. Full rounds stay capped at two, and each fix gets a read scoped to
+  the fix. The old line "if no round is left, the edit does not go in" is gone, because it
+  forced a choice between shipping a known error and shipping an unread fix. Version 3.9.0.

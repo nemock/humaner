@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.9.0
+version: 3.10.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -206,7 +206,7 @@ draft). Review the whole piece in one call, never slide-by-slide: choppiness hid
 the joints, where every slide passes locally and the script is a skit reel globally. The
 reviewer gets the finished text after the LINT pass, the written brief, the format, and
 the path to this skill directory, with instructions to read CRAFT.md, the architecture
-tells in this file, the format's dial in FORMATS.md, **and LINT.md §8, §12b and §12c** (the
+tells in this file, the format's dial in FORMATS.md, **and LINT.md §7b, §8, §12b and §12c** (the
 category statements and their tests; the reviewer is told the phrase lists in those
 sections are samples of a category, never the category). It does not get VOICE.md — it
 judges craft only, and a reviewer with a voice profile open starts enforcing mimicry.
@@ -345,6 +345,8 @@ Text can pass every vocabulary-level check and still read as nobody. Watch for t
 - [ ] Read aloud start to finish. (The ear catches what the eye forgives.)
 - [ ] Paragraph and sentence lengths visibly vary (contrast, not a target band).
 - [ ] Contractions ~everywhere; at most one deliberate uncontracted verdict line.
+      Count them (LINT §7b), don't eyeball it: a formal register reads as normal to the
+      writer. Then check each survivor drops weight on a verdict, and keep those.
 - [ ] Every abstract claim carries a particular: a number, mechanism, source, or example.
       A personal story is one option and rarely the needed one.
 - [ ] Recalled numbers hedged; cited numbers exact with source.
@@ -619,3 +621,22 @@ different depth — the skill drifting from writing well toward imitating the wr
   version the first time. Full rounds stay capped at two, and each fix gets a read scoped to
   the fix. The old line "if no round is left, the edit does not go in" is gone, because it
   forced a choice between shipping a known error and shipping an unread fix. Version 3.9.0.
+
+- **The uncontracted register; the full form is a stress device.** A proof read on paper drew
+  the complaint that the prose sounded robotic, with the *Star Trek: The Next Generation*
+  impostor-detection joke offered as the tell. Measured against the same author's previously
+  mailed work, the draft sat at 40 percent contracted against 81, and one of its four articles
+  at 6 — three contractions in 1,678 words. The rule already existed in CRAFT.md's contractions
+  line, in the voice file's verdict-line permission, in the spoken dial, and in this checklist,
+  **and nowhere in LINT.md**, so the removal pass had no category to look under and no count to
+  run. §7b is that entry. Two things make it worth case law. First, it is the only section with
+  a number that is honestly mechanical: the ratio is arithmetic, the eye normalizes a formal
+  register while reading, and the author is the last person who will hear it — so the count is
+  the flag and the ear is still the ruling. Second, and the reason the fix is not "contract
+  everything," the same ruling supplied the exception, pointing at *"The costs stopped in 1998.
+  The revenue did not."* and observing that the full form there works as punctuation in its own
+  right. The device only reads that way against a piece that contracts elsewhere, so a draft
+  spending it on every clause spends it to nothing; the lint protects the one line rather than
+  abolishing the form. §7b also names the three forms a blind sweep breaks (*have to*,
+  main-verb *have*, clause-final be-forms), because the first correction list generated in that
+  session contained all three and produced *"they've to come and ask"*. Version 3.10.0.

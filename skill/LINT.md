@@ -282,6 +282,43 @@ thing. Write about the thing.
 
 ---
 
+## 7b. The uncontracted register
+
+Added 2026-11-05, from a proof read on paper. Generated prose defaults to the full form —
+*it is, you are, they have, do not, cannot* — not once for weight, but as the resting
+register of a whole piece. Readers hear it as robotic, and there is a well-known joke
+resting on exactly this: in *Star Trek: The Next Generation*, the impostor is identified
+because he uses contractions and the android never does.
+
+**The category is: the full form used where the register chose it, not the sentence.**
+Contractions are the resting state of this kind of prose. The full form is a stress
+device, and when every clause is uncontracted the device is gone — nothing is left for it
+to be louder than.
+
+**The test is the ear, and alone among the sections here, this one also counts.** Read the
+full form aloud. If it drops weight onto a short verdict, keep it. If it is only what the
+draft defaulted to, contract it. Then count: the ratio of contracted to uncontracted forms
+is mechanical, and a piece sitting far below the author's own shipped work is not making a
+hundred deliberate choices. The measurement that prompted this section found a draft at 40
+percent against the same author's mailed work at 81, with one of its four articles at 6 —
+three contractions in 1,678 words. The count is the flag; the ear is the ruling.
+
+**Still legal, and preserving it is the entire reason to run the rest:**
+
+> The costs stopped in 1998. The revenue did not.
+
+The *did not* carries a finality that *didn't* does not, and functions as punctuation in
+its own right. That is the use this section spares — one or two per piece, on a thesis or
+a denial. It works only because everything around it contracts.
+
+**Three forms never contract, and a blind find-and-replace breaks them:** *have to* (never
+*they've to*), *have* as a main verb (*you have help*, not *you've help*), and any be-form
+ending its clause (*who we think we are*, not *who we think we're*). A pass that fixes
+register by sweeping the first list it writes introduces errors a reader trips over, which
+is worse than the stiffness it set out to cure.
+
+---
+
 ## 8. Negative parallelism, all three shapes
 
 The source separates these, and they are worth separating because only the third is easy to
@@ -637,6 +674,10 @@ is a better one than any word on any list above.
    rounds, and the same clause was caught again on 2026-09-10 in a different pipeline, so
    treat the lists as a starting point and the transplant and subtraction tests as the
    actual check.
+3a. Count the contracted and uncontracted forms (§7b). This one is arithmetic, so do it
+   rather than estimating: the eye normalizes a formal register while reading, and the
+   author is the last person who will hear it. Then read the survivors and keep the one
+   or two carrying stress.
 3b. For a weekly show, open the previous six scripts and search the new one for any phrase
    they share that is not the sign-on, the sign-off, or a declared structural beat
    (§12c, the formula). Read for the §8 shapes, including the countdown and the stamp;

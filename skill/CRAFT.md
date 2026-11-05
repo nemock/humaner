@@ -195,7 +195,11 @@ pivot: *Yet he decided to go.*
 meaning, it probably needs "which."
 
 **Use contractions** where they fit comfortably; the uncontracted form is audibly stilted. Avoid
-*I'd* (it means both *I had* and *I would*) and never invent *could've*.
+*I'd* (it means both *I had* and *I would*) and never invent *could've*. The full form is then
+available as emphasis, which is the same move as the rule below about the exclamation point:
+*The costs stopped in 1998. The revenue did not.* That *did not* works as punctuation in its own
+right, and only against a piece that contracts everywhere else, so spending it on every clause
+spends it to nothing. LINT.md §7b has the test.
 
 **Avoid the exclamation point.** Get emphasis from word order. Never use one to flag a joke: readers
 resent being told a moment was comical and are robbed of finding it funny themselves.

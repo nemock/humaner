@@ -419,7 +419,11 @@ style, so it is weak evidence of authorship on its own. It is still worth fixing
 - **Title Case In Headings.** Sentence case. GPT models lean hard on title case.
 - **Boldface scattered through prose** for emphasis, or every instance of a term bolded.
   Bold is for headings and for book and publication titles. Emphasis comes from word order
-  and the period (CRAFT.md §4).
+  and the period (CRAFT.md §4). **Exempt print output** (2026-11-05): in a piece set in a
+  word processor and read on paper, one or two bolded verdict sentences per article can be
+  a deliberate device, because a reader scanning a two-column page uses bold in a way a
+  screen reader does not. Record such a carve-out in your VOICE.md with its shape, and do
+  not strip it on a lint pass. For web and spoken work this rule stands.
 - **The bulleted inline header:** a bullet, a bold phrase, a colon, then a sentence,
   repeated down the page. It is a slide deck wearing prose. If the items are understood
   easily, write them as prose.
@@ -434,6 +438,12 @@ style, so it is weak evidence of authorship on its own. It is still worth fixing
   authored and printed from a word processor** (print newsletters, books), where curly is
   correct typography rather than a tell; record such carve-outs in your VOICE.md. For web
   and plain-text output, straight marks.
+
+**Both of this section's standing carve-outs are print carve-outs**, and the pattern is
+worth naming because the next one will look the same: §11 collects conventions that are AI
+tells in screen text and ordinary typography in a document set in a word processor and
+mailed on paper. Judge a §11 flag by the medium the piece will be read in, not by the file
+it is drafted in.
 
 ---
 

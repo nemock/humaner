@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.10.0
+version: 3.10.1
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of
@@ -640,3 +640,15 @@ different depth — the skill drifting from writing well toward imitating the wr
   abolishing the form. §7b also names the three forms a blind sweep breaks (*have to*,
   main-verb *have*, clause-final be-forms), because the first correction list generated in that
   session contained all three and produced *"they've to come and ask"*. Version 3.10.0.
+
+- **Bold as emphasis in print; judge a §11 flag by the medium.** The author bolded four
+  verdict sentences on a newsletter proof and asked that they be preserved. §11 bans exactly
+  that, reserving bold for headings and publication titles on the grounds that emphasis comes
+  from word order and the period. The ban is right for screen text and wrong for a piece set
+  in a word processor and mailed on paper, where a reader scanning a two-column page uses
+  bold in a way a screen reader cannot. §11 now carries the carve-out, capped at one or two
+  per article on a short declarative the paragraph has earned. The general lesson is the one
+  added to §11 itself: both of that section's standing carve-outs are print carve-outs,
+  because the section collects conventions that are AI tells in screen text and ordinary
+  typography on paper — so judge a §11 flag by the medium the piece will be read in, not by
+  the file it is drafted in. Version 3.10.1.

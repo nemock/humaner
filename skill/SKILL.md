@@ -1,6 +1,6 @@
 ---
 name: humaner
-version: 3.10.1
+version: 3.11.0
 description: |
   Understand the intent of the piece being written, and write well for that goal — the
   byline constrains, it does not generate. The North Star is CRAFT.md, a codification of

@@ -434,16 +434,17 @@ style, so it is weak evidence of authorship on its own. It is still worth fixing
 - **Emoji as bullets or decoration.** Never in prose.
 - **Tables for non-tabular content.**
 - **Skipped heading levels** and **horizontal rules immediately before a heading.**
-- **Curly quotes.** The source lists these as a paste artifact. **Exempt any output that is
-  authored and printed from a word processor** (print newsletters, books), where curly is
-  correct typography rather than a tell; record such carve-outs in your VOICE.md. For web
-  and plain-text output, straight marks.
+- **Curly quotes.** The source lists these as a paste artifact. **Exempt any output whose
+  publishing tool sets curly marks itself:** a document authored and printed from a word
+  processor (print newsletters, books), or a newsletter platform whose editor curls quotes
+  and apostrophes as you type. There curly is what every reader sees, not a tell; record
+  such carve-outs in your VOICE.md. For other web and plain-text output, straight marks.
 
-**Both of this section's standing carve-outs are print carve-outs**, and the pattern is
-worth naming because the next one will look the same: §11 collects conventions that are AI
-tells in screen text and ordinary typography in a document set in a word processor and
-mailed on paper. Judge a §11 flag by the medium the piece will be read in, not by the file
-it is drafted in.
+**Each of this section's standing carve-outs belongs to a medium**, and the pattern is worth
+naming because the next one will look the same: §11 collects conventions that are AI tells
+in raw screen text and ordinary typography wherever the publishing tool sets them, on paper
+from a word processor or in an editor that curls quotes. Judge a §11 flag by the medium the
+piece will be read in, not by the file it is drafted in.
 
 ---
 
